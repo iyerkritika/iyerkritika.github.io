@@ -1,2 +1,1 @@
-# iyerkritika.github.io
-Repository for the webpage
+This is my webpage.

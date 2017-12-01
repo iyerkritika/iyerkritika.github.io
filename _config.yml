@@ -1,7 +1,7 @@
 # Site Settings
 title: Kritika Iyer
 url: 'https://iyerkritika.github.io'
-baseurl: '/webpage' #change it according to your repository name
+# baseurl: '/webpage' #change it according to your repository name
 
 # Enable one of these styles by removing #. Style will be applied only after restarting the build or serve.
 # style: styles-2

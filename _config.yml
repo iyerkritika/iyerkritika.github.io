@@ -14,7 +14,7 @@ style: styles-3
 name: Kritika Iyer
 tagline: Graduate student at WPI
 pic: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
-summary: Hi
+summary: I am a Robotics graduate student at WPI(Worcester Polytechnic Institute) and intend to graduate in May 2018. I am currently looking for a full time job focusing on Deep learning and perception. I have a lot of experience coding in C++ and Python, my most recent project includes training a neural network to detect emotions. 
 #   'Summarise your career here lorem ipsum dolor sit amet, consectetuer adipiscing elit.
 # You can <a href="#" target="_blank">download this free resume/CV template here</a>. Aenean
 # commodo ligula eget dolor aenean massa. Cum sociis natoque penatibus et magnis dis parturient

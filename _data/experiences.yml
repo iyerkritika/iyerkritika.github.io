@@ -1,28 +1,26 @@
 - experience:
-  role: Lead Developer
-  time: 2015 - Present
-  company: Startup Hubs, San Francisco
-  details: "Describe your role here lorem ipsum dolor sit amet, consectetuer adipiscing
-  elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et
-  magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec,
-  pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo.
-  <br> <br>
-  Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-  laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-  architecto beatae vitae dicta sunt explicabo."
+  role: Engineering intern
+  time: July '16 - Aug '16
+  company: Persimmon Technologies
+  details: "During my internship, I designed a test bed for encoders. There were many specifications that needed to be met:
+  <ul>
+  <li> Minimum number of encoders that can be fit on the test bed
+  <li> Air gap between encoder and encoder ring,
+  <li> Fool proof methods of mounting the encoders with the correct air gap
+  <li> Easy mounting and removal of encoders so as to not disturb other encoders
+  <li>Cost effectiveness of the test bed (parts should be standardized and available from manufacturers instead of needing to be machined)
+  </ul>
+  The encoders are propietory and are manufactured specially for the robots at the company. The encoder rings are also specially designed hence their dimensions aren't standard. This meant that getting standardized parts that fit these specifications in the desgin was hard. Trade-off analysis had to be done whether it was easier to design around the standard or make some parts in store.
+  <br><br>
+  After many iterations the picture below is the design that was finalized. It has a total of 25 individual components out of which 11 are standard parts which can be bought by the manufacturer and the rest are designed. On repetition of these components the whole assembly has 221 components.
+  <br><br>
+  <b>Software used</b>: Solidworks
+  <br>"
+  expimage: testbed.jpg
 - experience:
-  role: Senior Software Engineer
-  time: 2014 - 2015
-  company: Google, London
-  details: "Describe your role here lorem ipsum dolor sit amet, consectetuer adipiscing
-  elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et
-  magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec,
-  pellentesque eu, pretium quis, sem."
-- experience:
-  role: UI Developer
-  time: 2012 - 2014
-  company: Amazon, London
-  details: "Describe your role here lorem ipsum dolor sit amet, consectetuer adipiscing
-  elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et
-  magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec,
-  pellentesque eu, pretium quis, sem."
+  role: Engineering intern
+  time: May '15 - Jun '15
+  company: Maruthi Suzuki India Pvt,ltd
+  details: "This internship was a great learning opprtunity to see how robots interact with eachother and humans in an industrial setting. I studied trajectory controllers for 6-DOF Fanuc and ABB robots for car manufacturing. I also learned how to work with Seimens PLCs(Programmable Logic Controllers) and code them using ladder logic. Using this I designed a ladder logic to control a bottle filling station using complex pick and place operations with indexing.
+  <br><br>
+  <b>Software used</b>: SIMANTIC (ladder logic software)"

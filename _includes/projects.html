@@ -3,21 +3,36 @@
 
   <h2 class="section-title"><i class="fa fa-archive"></i>Projects</h2>
 
-  {% for intro in site.data.projects %}
-  <div class="intro">
-      <p>{{ intro.description }}</p>
-  </div><!--//intro-->
-  {% endfor%}
-
   {% for project in site.data.projects %}
     <div class="item">
+      <div class="meta">
+        <div class="upper-row">
+          <h3 class="job-title">{{ project.title }}</h3>
+          <div class="time">{{ project.time }}</div>
+        </div><!--//upper-row-->
+      </div><!--//meta-->
 
-      <span class="project-title"><a href="{{ project.link }}">{{ project.title }}</a></span>
-
-      {% if project.tagline %}
-      - <span class="project-tagline">{{ project.tagline }}</span>
+      {% if project.details %}
+      <div class="details">
+        <p>{{ project.details }}</p>
+      </div><!--//details-->
       {% endif %}
 
+      {% if project.proimage %}
+      <div align="center">
+        <img src ="{{site.baseurl}}/assets/images/{{project.proimage}}"</p>
+      </div><!--//details-->
+      <br><br><br>
+      {% endif %}
+
+      {% if project.provid %}
+      <div align="center">
+        <iframe width="600" height="450"
+          src="{{project.provid}}">
+        </iframe>
+      </div><!--//details-->
+      <br><br><br>
+      {% endif %}
     </div><!--//item-->
   {% endfor %}
 

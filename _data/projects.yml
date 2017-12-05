@@ -1,24 +1,40 @@
-- intro:
-  description: "You can list your side projects or open source libraries in this section. Lorem ipsum dolor
-  sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus."
+- project:
+  title: Emotion detection for children with ASD using deep learning
+  time: Aug '17 - Dec '17
+  details: "Autism Spectrum Disorder(ASD) is a neurological disorder which causes late development of motor and social skills.  "
+  provid: https://www.youtube.com/embed/36LlwygWWXk
 
 - project:
-  title: Velocity
-  link: "#hook"
-  tagline: "A responsive website template designed to help startups promote, market and sell their products."
+  title: Mapping and motion planning on an RC car
+  time: Jan '17 - May '17
+  details: "laklalty "
+  #proimage: dlap
+  #provid: https://www.youtube.com/embed/36LlwygWWXk
+
 - project:
-  title: DevStudio
-  link: "#"
-  tagline: "A responsive website template designed to help web developers/designers market their services."
+  title: Safe Driving using Model Predictive Control
+  time: Jan '17 - May '17
+  details: "laklalty "
+  #proimage: dlap
+  provid: https://www.youtube.com/embed/ioxudJXcN8g
+
 - project:
-  title: Tempo
-  link: "#"
-  tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+  title: Modular Teleoperation Framework for any master and slave device
+  time: Jan '17 - May '17
+  details: "laklalty "
+  #proimage: dlap
+  provid: https://www.youtube.com/embed/eJS6qXRqhds
+
 - project:
-  title: Atom
-  link: "#"
-  tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+  title: Fin Analysis and Modelling for a Manta Ray Fish
+  time: Feb '17 - Jun '17
+  details: "laklalty "
+  #proimage: dlap
+  provid: https://www.youtube.com/embed/xW60XTqEUqI
+
 - project:
-  title: Delta
-  link: "#"
-  tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+  title: Motion Compensation of Davinci during surgery
+  time: Jan '17 - May '17
+  details: "laklalty "
+  #proimage: dlap
+  provid: https://www.youtube.com/embed/WzyvoLGqVeE

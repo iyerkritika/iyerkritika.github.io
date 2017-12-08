@@ -1,6 +1,6 @@
 - project:
   title: Emotion detection for children with ASD using deep learning
-  link: https://github.com/iyerkritika/Emotion_tracking_DL
+  link: Emotion_tracking_DL
   time: Aug '17 - Dec '17
   details: "Autism Spectrum Disorder(ASD) is a neurological disorder which causes late development of motor and social skills. PABI(Penguin for Autism Behavioral Intervention) is a robot that helps children with ASD improve their social skills. It is paired with a tablet and gives various audio visual queues as positive reinforcement for right answers.
   <br><br>
@@ -15,7 +15,7 @@
 
 - project:
   title: Mapping and motion planning on an RC car
-  link: https://github.com/iyerkritika/motion_planning_project
+  link: motion_planning_project
   time: Jan '17 - May '17
   details: "Motion planning is one of the most important things needed to move a robot. In this project I took 3 motion planning algorithms, A*, RRT* and ARA* and compared them in 3 different Gazebo worlds for completness, optimality, space and time complexity.
   <br><br>
@@ -29,6 +29,7 @@
   title: Safe Driving using Model Predictive Control
   time: Jan '17 - May '17
   details: "There is a boom in interest in self driving cars over the past few years. This project   "
+  link: mpc_control
   #proimage: dlap
   provid: https://www.youtube.com/embed/ioxudJXcN8g
 
@@ -36,6 +37,7 @@
   title: Modular Teleoperation Framework for any master and slave device
   time: Jan '17 - May '17
   details: "laklalty "
+  link: modular_teleop
   #proimage: dlap
   provid: https://www.youtube.com/embed/eJS6qXRqhds
 
@@ -50,6 +52,7 @@
   title: Motion Compensation of Davinci during surgery
   time: Oct '16 - Dec '16
   details: "laklalty "
+  link: motion_comp
   #proimage: dlap
   provid: https://www.youtube.com/embed/WzyvoLGqVeE
 

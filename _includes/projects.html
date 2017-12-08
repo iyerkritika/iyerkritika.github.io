@@ -8,13 +8,7 @@
       <button class ="accordion">
       <div class="meta">
         <div class="upper-row">
-          {% if project.link %}
-          <h3 class="job-title"><a href={{project.link}}>{{ project.title }}</a></h3>
-
-          {% else %}
           <h3 class="job-title">{{ project.title }}</h3>
-          {% endif %}
-
           <div class="time">{{ project.time }}</div>
         </div><!--//upper-row-->
       </div><!--//meta-->
@@ -25,7 +19,9 @@
         <p>{{ project.details }}</p>
       </div><!--//details-->
       {% endif %}
-
+      {%if project.link%}
+      <h4>github repo:<a href="https://github.com/iyerkritika/{{project.link}}">{{project.link}}</a></h4>
+      {% endif %}
       {% if project.proimage %}
       <div align="center">
         <img src ="{{site.baseurl}}/assets/images/{{project.proimage}}"</p>

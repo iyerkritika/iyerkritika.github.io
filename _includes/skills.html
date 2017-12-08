@@ -1,21 +1,58 @@
 {% if site.data.skills %}
 <section class="skills-section section">
 
-  <h2 class="section-title"><i class="fa fa-rocket"></i>Skills &amp; Proficiency</h2>
+  <h2 class="section-title"><i class="fa fa-rocket"></i>Skills</h2>
 
   <div class="skillset">
 
+    <h4>Programming Languages</h4>
     {% for skill in site.data.skills %}
     <div class="item">
-
+      {% if skill.type == "lang" %}
       <h3 class="level-title">{{ skill.name }}</h3>
-
       <div class="level-bar">
         <div class="level-bar-inner" data-level="{{ skill.level }}">
         </div>
       </div><!--//level-bar-->
-
+      {% endif %}
     </div><!--//item-->
+    {% endfor %}
+
+    <h4>Software and Tools</h4>
+    {% for skill in site.data.skills %}
+    <div class="item">
+      {% if skill.type == "Soft" %}
+      <h3 class="level-title">{{ skill.name }}</h3>
+      <div class="level-bar">
+        <div class="level-bar-inner" data-level="{{ skill.level }}">
+        </div>
+      </div><!--//level-bar-->
+      {% endif %}
+    </div><!--//item-->
+    {% endfor %}
+    <h4>Design Software</h4>
+    {% for skill in site.data.skills %}
+    <div class="item">
+      {% if skill.type == "Design" %}
+      <h3 class="level-title">{{ skill.name }}</h3>
+      <div class="level-bar">
+        <div class="level-bar-inner" data-level="{{ skill.level }}">
+        </div>
+      </div><!--//level-bar-->
+      {% endif %}
+    </div> <!--//item-->
+    {% endfor %}
+    <h4>Hardware</h4>
+    {% for skill in site.data.skills %}
+    <div class="item">
+      {% if skill.type == "Hard" %}
+      <h3 class="level-title">{{ skill.name }}</h3>
+      <div class="level-bar">
+        <div class="level-bar-inner" data-level="{{ skill.level }}">
+        </div>
+      </div><!--//level-bar-->
+    </div><!--//item-->
+      {% endif %}
     {% endfor %}
 
   </div>

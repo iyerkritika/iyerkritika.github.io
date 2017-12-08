@@ -1,4 +1,22 @@
 - experience:
+  role: Software Engineering Specialist
+  time: Sept'19 - present
+  company: Medacuity Software LLC
+  details: "Medacuity is a Software consultancy company which is involved in medical devices specifically. It has a number of clients in this area and provides software support in the development of these devices.
+  <br><br>
+  I have been working on projects which require software assistance as a full-stack engineer. These devices go through rigorous testing as they are medical devices and need FDA approval. This has helped me understand the process and I have become well versed in the ISO: 13485 which is the software guidelines for medical devices. There are also Robotics based medical devices that I am working on."
+  software: C++, Visual studio(C#)
+
+  - experience:
+  role: Software Engineer
+  time: May'18 - Sept'19
+  company: FESTO corporation
+  details: "Festo is a company which is involved in industrial automation and other pneumatic and hydraulic solutions. Recently they have gotten involved in the liquid handling sector for medical laboratories. This includes valves and pipettes. During the development of these systems I supported my team buy building test benches along with the graphical interfaces for our test engineers. I was also in talks to integrate machine learning for predictive maintenance of our systems.
+  <br><br>
+  In my time here I learned a lot in terms of communication protocols via Ethernet and serial ports. I was involved in the design of certain parts as well as helped build the firmware for our systems. Most of my job entailed control of PLCs via various interfaces to make all the parts of the system act as one."
+  software: Codesys, Visual studio(C#), Arduino IDE(C++), Labview, ProCreo, WinIdea(firmware)
+
+- experience:
   role: Engineering intern
   time: July '16 - Aug '16
   company: Persimmon Technologies
@@ -10,17 +28,15 @@
   <li> Easy mounting and removal of encoders so as to not disturb other encoders
   <li>Cost effectiveness of the test bed (parts should be standardized and available from manufacturers instead of needing to be machined)
   </ul>
-  The encoders are propietory and are manufactured specially for the robots at the company. The encoder rings are also specially designed hence their dimensions aren't standard. This meant that getting standardized parts that fit these specifications in the desgin was hard. Trade-off analysis had to be done whether it was easier to design around the standard or make some parts in store.
+  The encoders are propitiatory and are manufactured specially for the robots at the company. The encoder rings are also specially designed hence their dimensions aren't standard. This meant that getting standardized parts that fit these specifications in the design was hard. Trade-off analysis had to be done whether it was easier to design around the standard or make some parts in store.
   <br><br>
-  After many iterations the picture below is the design that was finalized. It has a total of 25 individual components out of which 11 are standard parts which can be bought by the manufacturer and the rest are designed. On repetition of these components the whole assembly has 221 components.
-  <br><br>
-  <b>Software used</b>: Solidworks
-  <br>"
+  After many iterations the picture below is the design that was finalized. It has a total of 25 individual components out of which 11 are standard parts which can be bought by the manufacturer and the rest are designed. On repetition of these components the whole assembly has 221 components."
+  software: Solidworks
   expimage: testbed.jpg
+
 - experience:
   role: Engineering intern
   time: May '15 - Jun '15
   company: Maruthi Suzuki India Pvt,ltd
-  details: "This internship was a great learning opprtunity to see how robots interact with eachother and humans in an industrial setting. I studied trajectory controllers for 6-DOF Fanuc and ABB robots for car manufacturing. I also learned how to work with Seimens PLCs(Programmable Logic Controllers) and code them using ladder logic. Using this I designed a ladder logic to control a bottle filling station using complex pick and place operations with indexing.
-  <br><br>
-  <b>Software used</b>: SIMANTIC (ladder logic software)"
+  details: "This internship was a great learning opportunity to see how robots interact with each other and humans in an industrial setting. I studied trajectory controllers for 6-DOF Fanuc and ABB robots for car manufacturing. I also learned how to work with Seimens PLCs(Programmable Logic Controllers) and code them using ladder logic. Using this I designed a ladder logic to control a bottle filling station using complex pick and place operations with indexing."
+  software: SIMANTIC (ladder logic software)

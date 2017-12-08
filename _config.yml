@@ -12,13 +12,9 @@ style: styles-3
 
 #Profile information
 name: Kritika Iyer
-tagline: Graduate student at WPI
+tagline: Software Engineer at FESTO
 pic: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
-summary: I am a Robotics graduate student at WPI(Worcester Polytechnic Institute) and intend to graduate in May 2018. I am currently looking for a full time job focusing on Deep learning and perception. I have a lot of experience coding in C++ and Python, my most recent project includes training a neural network to detect emotions. 
-#   'Summarise your career here lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-# You can <a href="#" target="_blank">download this free resume/CV template here</a>. Aenean
-# commodo ligula eget dolor aenean massa. Cum sociis natoque penatibus et magnis dis parturient
-# montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu.'
+summary: I am a Software Engineer at Medacuity Software LLC. I deal with various projects pertaining to the medical device industry. I did my Master's degree in Robotics Engineering from WPI(Worcester Polytechnic Institute). I have experience coding in C++ and Python, C# and .Net, my most recent projects include creating graphical interfaces for medical devices as well as using Deep Learning to detect the emotions and attention levels of children with ASD. I am a fast learner and an efficient worker. In the last 2 years, I have developed my skills in C# and C++ considerably and learned a lot about what it takes to make a product in the medical device industry. Having worked in a start-up and currently working in a medium-sized company I know how to adapt and work in any environment and understand the challenges and advantages of these scenarios. I am very self-sufficient and believe I have the caliber to be able to transfer knowledge to newer employees.
 
 #sidebar links
 email: kiyer@wpi.edu

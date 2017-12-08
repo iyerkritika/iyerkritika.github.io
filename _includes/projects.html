@@ -5,17 +5,27 @@
 
   {% for project in site.data.projects %}
     <div class="item">
+      <button class ="accordion">
       <div class="meta">
         <div class="upper-row">
           <h3 class="job-title">{{ project.title }}</h3>
           <div class="time">{{ project.time }}</div>
         </div><!--//upper-row-->
       </div><!--//meta-->
-
+    </button>
+    <div class="panel">
       {% if project.details %}
       <div class="details">
         <p>{{ project.details }}</p>
       </div><!--//details-->
+      {% endif %}
+
+      {% if project.software %}
+      <p><b>Software Used:</b>{{project.software}}</p>
+      {% endif %}
+
+      {%if project.link%}
+      <h4>github repo:<a href="https://github.com/iyerkritika/{{project.link}}">{{project.link}}</a></h4>
       {% endif %}
 
       {% if project.proimage %}
@@ -33,6 +43,7 @@
       </div><!--//details-->
       <br><br><br>
       {% endif %}
+    </div><!--//panel-->
     </div><!--//item-->
   {% endfor %}
 

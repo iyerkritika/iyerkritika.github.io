@@ -31,15 +31,16 @@ h6 {
   font-weight: 700;
 }
 a {
-  color: #000000;
+  color: #000;
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
+  text-decoration: underline;
 }
 a:hover {
   text-decoration: underline;
-  color: #25532f;
+  color: #111;
 }
 a:focus {
   text-decoration: none;
@@ -48,7 +49,7 @@ p {
   line-height: 1.5;
 }
 .wrapper {
-  background: #120CB1;
+  background: #222f5b;
   max-width: 960px;
   margin: 0 auto;
   position: relative;
@@ -57,7 +58,7 @@ p {
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
 .sidebar-wrapper {
-  background: #120CB1;
+  background: #222f5b;
   position: absolute;
   right: 0;
   width: 240px;
@@ -166,7 +167,7 @@ p {
   text-transform: uppercase;
   font-size: 20px;
   font-weight: 500;
-  color: #120cb1;
+  color: #0e1a40;
   position: relative;
   margin-top: 0;
   margin-bottom: 20px;
@@ -185,7 +186,7 @@ p {
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  background: #120cb1;
+  background: #0e1a40;
   text-align: center;
   padding-top: 8px;
   font-size: 16px;
@@ -204,7 +205,7 @@ p {
   margin-bottom: 2px;
 }
 .main-wrapper .job-title {
-  color: #3F4650;
+  color: #000;
   font-size: 16px;
   margin-top: 0;
   margin-bottom: 0;
@@ -214,7 +215,7 @@ p {
   position: absolute;
   right: 0;
   top: 0;
-  color: #97AAC3;
+  color: #000;
 }
 .main-wrapper .company {
   margin-bottom: 10px;
@@ -233,13 +234,13 @@ p {
   margin-bottom: 15px;
 }
 .skillset .item {
-  margin-bottom: 15px;
+  margin-bottom: 5px;
   overflow: hidden;
 }
 .skillset .level-title {
   font-size: 14px;
   margin-top: 0;
-  margin-bottom: 12px;
+  margin-bottom: 2px;
 }
 .skillset .level-bar {
   height: 12px;
@@ -247,7 +248,7 @@ p {
 }
 .skillset .level-bar-inner {
   height: 12px;
-  background: #120cb1;
+  background: #0e1a40;
 }
 .footer {
   padding: 30px;
@@ -308,4 +309,28 @@ used for profile image
   border: 0px solid #fff;
   border-radius: 100%;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+button.accordion
+{
+  background-color: #fff;
+  color: #000;
+  cursor: pointer;
+  padding: 9px;
+  width: 100%;
+  text-align: left;
+  border-color: #0e1a40;
+  outline: none;
+  transition: 0.4s;
+}
+
+button.accordion.active, button.accordion:hover
+{
+  background-color: #ccc;
+}
+
+div.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
 }

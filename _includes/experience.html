@@ -4,7 +4,7 @@
 
 {% for experience in site.data.experiences %}
   <div class="item">
-
+    <button class="accordion">
     <div class="meta">
 
       <div class="upper-row">
@@ -15,7 +15,8 @@
       <div class="company">{{ experience.company }}</div>
 
     </div><!--//meta-->
-
+  </button>
+  <div class="panel">
     {% if experience.details %}
     <div class="details">
       <p>{{ experience.details }}</p>
@@ -29,7 +30,7 @@
     <br><br><br>
     {% endif %}
 
-
+  </div><!--//panel-->
   </div><!--//item-->
 {% endfor %}
 

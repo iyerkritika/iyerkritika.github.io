@@ -5,13 +5,21 @@
 
   {% for project in site.data.projects %}
     <div class="item">
+      <button class ="accordion">
       <div class="meta">
         <div class="upper-row">
+          {% if project.link %}
+          <h3 class="job-title"><a href={{project.link}}>{{ project.title }}</a></h3>
+
+          {% else %}
           <h3 class="job-title">{{ project.title }}</h3>
+          {% endif %}
+
           <div class="time">{{ project.time }}</div>
         </div><!--//upper-row-->
       </div><!--//meta-->
-
+    </button>
+    <div class="panel">
       {% if project.details %}
       <div class="details">
         <p>{{ project.details }}</p>
@@ -33,6 +41,7 @@
       </div><!--//details-->
       <br><br><br>
       {% endif %}
+    </div><!--//panel-->
     </div><!--//item-->
   {% endfor %}
 

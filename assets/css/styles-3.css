@@ -31,15 +31,16 @@ h6 {
   font-weight: 700;
 }
 a {
-  color: #000000;
+  color: #fff;
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
+  text-decoration: underline;
 }
 a:hover {
   text-decoration: underline;
-  color: #25532f;
+  color: #b2b2b2;
 }
 a:focus {
   text-decoration: none;
@@ -204,7 +205,7 @@ p {
   margin-bottom: 2px;
 }
 .main-wrapper .job-title {
-  color: #3F4650;
+  color: #FFF;
   font-size: 16px;
   margin-top: 0;
   margin-bottom: 0;
@@ -214,7 +215,7 @@ p {
   position: absolute;
   right: 0;
   top: 0;
-  color: #97AAC3;
+  color: #fff;
 }
 .main-wrapper .company {
   margin-bottom: 10px;
@@ -308,4 +309,28 @@ used for profile image
   border: 0px solid #fff;
   border-radius: 100%;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+button.accordion
+{
+  background-color: #120CB1;
+  color: #fff;
+  cursor: pointer;
+  padding: 9px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+button.accordion.active, button.accordion:hover
+{
+  background-color: #5954c8;
+}
+
+div.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
 }

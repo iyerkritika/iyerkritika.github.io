@@ -12,15 +12,13 @@
   </ul>
   The encoders are propietory and are manufactured specially for the robots at the company. The encoder rings are also specially designed hence their dimensions aren't standard. This meant that getting standardized parts that fit these specifications in the desgin was hard. Trade-off analysis had to be done whether it was easier to design around the standard or make some parts in store.
   <br><br>
-  After many iterations the picture below is the design that was finalized. It has a total of 25 individual components out of which 11 are standard parts which can be bought by the manufacturer and the rest are designed. On repetition of these components the whole assembly has 221 components.
-  <br><br>
-  <b>Software used</b>: Solidworks
-  <br>"
+  After many iterations the picture below is the design that was finalized. It has a total of 25 individual components out of which 11 are standard parts which can be bought by the manufacturer and the rest are designed. On repetition of these components the whole assembly has 221 components."
+  software: Solidworks
   expimage: testbed.jpg
+
 - experience:
   role: Engineering intern
   time: May '15 - Jun '15
   company: Maruthi Suzuki India Pvt,ltd
-  details: "This internship was a great learning opprtunity to see how robots interact with eachother and humans in an industrial setting. I studied trajectory controllers for 6-DOF Fanuc and ABB robots for car manufacturing. I also learned how to work with Seimens PLCs(Programmable Logic Controllers) and code them using ladder logic. Using this I designed a ladder logic to control a bottle filling station using complex pick and place operations with indexing.
-  <br><br>
-  <b>Software used</b>: SIMANTIC (ladder logic software)"
+  details: "This internship was a great learning opprtunity to see how robots interact with eachother and humans in an industrial setting. I studied trajectory controllers for 6-DOF Fanuc and ABB robots for car manufacturing. I also learned how to work with Seimens PLCs(Programmable Logic Controllers) and code them using ladder logic. Using this I designed a ladder logic to control a bottle filling station using complex pick and place operations with indexing."
+  software: SIMANTIC (ladder logic software)

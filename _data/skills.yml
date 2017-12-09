@@ -1,18 +1,59 @@
 - skill:
-  name: Python & Django
-  level: 98%
-- skill:
-  name: Javascript & jQuery
-  level: 98%
-- skill:
-  name: Angular
-  level: 98%
-- skill:
-  name: HTML5 & CSS
+  type: lang
+  name: C++
   level: 95%
+
 - skill:
-  name: Ruby on Rails
+  type: lang
+  name: python
   level: 85%
+
 - skill:
-  name: Sketch & Photoshop
-  level: 60%
+  type: lang
+  name: Matlab
+  level: 85%
+
+- skill:
+  type: Soft
+  name: ROS
+  level: 70%
+
+- skill:
+  type: Soft
+  name: Gazebo
+  level: 70%
+
+- skill:
+  type: Soft
+  name: Openrave
+  level: 70%
+
+- skill:
+  type: Soft
+  name: Git
+  level: 80%
+
+- skill:
+  type: Design
+  name: Solidworks,ProE, Autocad
+  level: 95%
+
+- skill:
+  type: Design
+  name: Comsol,Ansys
+  level: 90%
+
+- skill:
+  type: Hard
+  name: Aurduino, PIC boards
+  level: 85%
+
+- skill:
+  type: Hard
+  name: IR sensors, Ultrasonic Sensors, limit switches
+  level: 90%
+
+- skill:
+  type: Hard
+  name: DC and Servo motors
+  level: 95%

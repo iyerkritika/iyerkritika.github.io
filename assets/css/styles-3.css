@@ -205,7 +205,7 @@ p {
   margin-bottom: 2px;
 }
 .main-wrapper .job-title {
-  color: #FFF;
+  color: #000;
   font-size: 16px;
   margin-top: 0;
   margin-bottom: 0;
@@ -215,7 +215,7 @@ p {
   position: absolute;
   right: 0;
   top: 0;
-  color: #fff;
+  color: #000;
 }
 .main-wrapper .company {
   margin-bottom: 10px;
@@ -234,13 +234,13 @@ p {
   margin-bottom: 15px;
 }
 .skillset .item {
-  margin-bottom: 15px;
+  margin-bottom: 5px;
   overflow: hidden;
 }
 .skillset .level-title {
   font-size: 14px;
   margin-top: 0;
-  margin-bottom: 12px;
+  margin-bottom: 5px;
 }
 .skillset .level-bar {
   height: 12px;
@@ -313,20 +313,20 @@ used for profile image
 
 button.accordion
 {
-  background-color: #0e1a40;
-  color: #fff;
+  background-color: #fff;
+  color: #000;
   cursor: pointer;
   padding: 9px;
   width: 100%;
   text-align: left;
-  border: none;
+  border-color: #0e1a40;
   outline: none;
   transition: 0.4s;
 }
 
 button.accordion.active, button.accordion:hover
 {
-  background-color: #222f5b;
+  background-color: #1c64a3;
 }
 
 div.panel {

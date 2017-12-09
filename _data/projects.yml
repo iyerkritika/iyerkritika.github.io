@@ -4,14 +4,15 @@
   time: Aug '17 - Dec '17
   details: "Autism Spectrum Disorder(ASD) is a neurological disorder which causes late development of motor and social skills. PABI(Penguin for Autism Behavioral Intervention) is a robot that helps children with ASD improve their social skills. It is paired with a tablet and gives various audio visual queues as positive reinforcement for right answers.
   <br><br>
- This project futhers the assistance of the robot by making it capable of recognizing emotions. This can show how much of the sessions are helping the child or keeping them involved in the session.
+  This project futhers the assistance of the robot by making it capable of recognizing emotions. This can show how much of the sessions are helping the child or keeping them involved in the session.
  <br><br>
- During the course of this project, the FERC kaggle dataset was taken. It consisted of 7 emotions namely anger, disgust, happy , sad, surprise, fear and neutral. The dataset had some bad images in it which were removed, it also had uneven amount of data for each label. Anger and disgust were combined to one label as the exhibit a similar negative sentiment. After this all the data was augmented to have the same umber of samples in each label. The data was then put into a pickle file and run on the model. The model consists of various Convolutions, Max-pooling, Flattening, Batch-normalizations and dropout layers with relu and softmax activation functions.
- <br><br>
- The maximum accuracy reached for 6 emotions was 57.22%. Seeing the confusion matrix it was obvious that fear wasn't being detected properly so fear was removed and trained again to reach 68.50%. The highest accuracy recorded on this dataset is 71.2% so 68.5% is good. Another dataset has been obtained since and the model is being trained on that.
- <br><br>
- The video below shows how the trained model work on live video test data. The reults were displayed with the label and the confidence of the label. The final softmax layer was tweaked to show unsure if the confidence was less than 50%. "
-  provid: https://www.youtube.com/embed/36LlwygWWXk
+  During the course of this project, the FERC kaggle dataset was taken. It consisted of 7 emotions namely anger, disgust, happy , sad, surprise, fear and neutral. The dataset had some bad images in it which were removed, it also had uneven amount of data for each label. Anger and disgust were combined to one label as the exhibit a similar negative sentiment. After this all the data was augmented to have the same umber of samples in each label. The data was then put into a pickle file and run on the model. The model consists of various Convolutions, Max-pooling, Flattening, Batch-normalizations and dropout layers with relu and softmax activation functions.
+  <br><br>
+  The maximum accuracy reached for 6 emotions was 57.22%. Seeing the confusion matrix it was obvious that fear wasn't being detected properly so fear was removed and trained again to reach 68.50%. The highest accuracy recorded on this dataset is 71.2% so 68.5% is good. Another dataset has been obtained since and the model is being trained on that.
+  <br><br>
+  The video below shows how the trained model work on live video test data. The reults were displayed with the label and the confidence of the label. The final softmax layer was tweaked to show unsure if the confidence was less than 50%. "
+  software: "Keras, theano, Skitlearn, Anaconda Environment, Python,Harr face detect."
+  provid: https://www.youtube.com/embed/Wzzqim4pnSs
 
 - project:
   title: Mapping and motion planning on an RC car
@@ -22,22 +23,25 @@
   The 3 worlds are ones with no obstacles, one obstacle and a narrow passage. The goals are the same for each algorithm but change for each world. These algorithms were all coded in c++ with gazebo using ROS. The code can be found in the repo motion_planning_project.
   <br><br>
   The video below shows how each algorithm faired in each world * EXPLAIN MORE HERE AFTER TOUCH UP OF CODE*"
+  software: C++, gazebo, ROS, Rviz(for visualization)
   #proimage: dlap
   #provid: https://www.youtube.com/embed/36LlwygWWXk
 
 - project:
   title: Safe Driving using Model Predictive Control
   time: Jan '17 - May '17
-  details: "There is a boom in interest in self driving cars over the past few years. This project   "
   link: mpc_control
+  details: "There is a boom in interest in self driving cars over the past few years. This project   "
+  software: Matlab
   #proimage: dlap
   provid: https://www.youtube.com/embed/ioxudJXcN8g
 
 - project:
   title: Modular Teleoperation Framework for any master and slave device
   time: Jan '17 - May '17
-  details: "laklalty "
   link: modular_teleop
+  details: "laklalty "
+  software: C++, ROS, Gazebo
   #proimage: dlap
   provid: https://www.youtube.com/embed/eJS6qXRqhds
 
@@ -51,8 +55,9 @@
 - project:
   title: Motion Compensation of Davinci during surgery
   time: Oct '16 - Dec '16
-  details: "laklalty "
   link: motion_comp
+  details: "laklalty "
+  software: C++, Gazebo,ROS
   #proimage: dlap
   provid: https://www.youtube.com/embed/WzyvoLGqVeE
 
@@ -60,6 +65,7 @@
   title: Manta Ray fin actuation using Nitnol wires and Pneumatics
   time: Sept '16 - Dec '16
   details: "laklalty "
+  software:
   #proimage: dlap
   provid: https://www.youtube.com/embed/XknByCPCKAo
 
@@ -67,5 +73,32 @@
   title: Kiosk for Children with ASD
   time: Sept '15 - May '16
   details: "laklalty "
-  proimage:
+  software:
+  # proimage:
+  #provid: https://www.youtube.com/embed/WzyvoLGqVeE
+
+- project:
+  title: Design, Control and Fabrication of 3DOF manipulator
+  time: April '14 - May '15
+  details: "laklalty "
+  software: Arduino
+  paper: http://ieeexplore.ieee.org/abstract/document/7854020/
+  # proimage:
+  #provid: https://www.youtube.com/embed/WzyvoLGqVeE
+
+- project:
+  title: Door Mechanism for Children with ASD
+  time: April '14 - May '15
+  details: "laklalty "
+  software:
+  # proimage:
+  #provid: https://www.youtube.com/embed/WzyvoLGqVeE
+
+- project:
+  title: Image processing in a bubble column Reactor
+  time: April '14 - May '15
+  details: "laklalty "
+  software: Matlab
+  paper: http://ieeexplore.ieee.org/abstract/document/6724169/
+  # proimage:
   #provid: https://www.youtube.com/embed/WzyvoLGqVeE

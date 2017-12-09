@@ -23,6 +23,10 @@
     </div><!--//details-->
     {% endif %}
 
+    {% if experience.software %}
+    <p><b>Software Used:</b>{{experience.software}}</p>
+    {% endif %}
+
     {% if experience.expimage %}
     <div align="center">
       <img src ="{{site.baseurl}}/assets/images/{{experience.expimage}}"</p>

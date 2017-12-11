@@ -240,7 +240,7 @@ p {
 .skillset .level-title {
   font-size: 14px;
   margin-top: 0;
-  margin-bottom: 5px;
+  margin-bottom: 2px;
 }
 .skillset .level-bar {
   height: 12px;
@@ -326,7 +326,7 @@ button.accordion
 
 button.accordion.active, button.accordion:hover
 {
-  background-color: #1c64a3;
+  background-color: #ccc;
 }
 
 div.panel {

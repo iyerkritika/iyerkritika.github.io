@@ -54,7 +54,8 @@
   time: Feb '17 - Jun '17
   details: "Manta rays are supremely efficient swimmers and can withstand a wide range of temperatures and pressures. To mimic their body movement would mean to be able to do deep sea navigation for extended periods of time. This would also help study manta ray behavior for oceanographers and marine biologists.
   <br><br>
-  In this project, I modeled a manta ray fin from anatomically correct ratios in solidworks. Then I did analysis of this fin in Comsol. I did deflection analysis, stress analysis, flow analysis with a velocity of 5m/s for water. The video shows the results of this analysis. "
+  In this project, I modeled a manta ray fin from anatomically correct ratios in Solidworks. Then I did analysis of this fin in Comsol. I did deflection analysis, stress analysis, flow analysis with a velocity of 5m/s for water. The video shows the results of this analysis. "
+  software: Solidworks, Comsol
   #proimage: dlap
   provid: https://www.youtube.com/embed/xW60XTqEUqI
 
@@ -62,7 +63,9 @@
   title: Motion Compensation of Davinci during surgery
   time: Oct '16 - Dec '16
   link: motion_comp
-  details: "laklalty "
+  details: "During surgery on parts that move involuntarily even while under anesthesia the surgeon moves the surgical instrument to compensate for this motion. This means that it is the surgeons job to synchronize his/her movements to the patient's. To make their job easier, my team and I worked on a model that would help the surgeon operate as the system takes care of the motion compensation.
+  <br><br>
+  This has been achieved on a simulation of the Davinci PSM and MTM models on gazebo using ROS. The MTM moves and incorporates teleoperation where the PSM performs the movement given by the MTM as well as compensation of movement of a platform which mimics movement of tissue. The platform has been coded to move in the form of a randomly generated Fourier transform. An Extended Kalman Filter(EKF) has been used to predict the next position of the platform or tissue. The video below shows the results from this model."
   software: C++, Gazebo,ROS
   #proimage: dlap
   provid: https://www.youtube.com/embed/WzyvoLGqVeE

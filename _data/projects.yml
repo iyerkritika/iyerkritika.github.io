@@ -73,8 +73,8 @@
 - project:
   title: Manta Ray fin actuation using Nitnol wires and Pneumatics
   time: Sept '16 - Dec '16
-  details: "laklalty "
-  software:
+  details: "Manta rays can swim very efficiently and this is due to the flap of their fins. In this project, my team and I designed a manta ray fin mold in solidworks. We then got the mold 3D printed and made manta ray models out of silicone ecoflex-30. Some manta rays had Nitnol wires in them during molding that had been pre-trained to fold in one direction, others had wires put in them after being molded. Another model was made of a bigger mold with chambers for air to go in. Manta rays were made and air was pushed into the chamber to create a movement. The results can be seen in the video below."
+  software: Solidworks
   #proimage: dlap
   provid: https://www.youtube.com/embed/XknByCPCKAo
 

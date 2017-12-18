@@ -5,33 +5,35 @@
   details: "Autism Spectrum Disorder(ASD) is a neurological disorder which causes late development of motor and social skills. PABI(Penguin for Autism Behavioral Intervention) is a robot that helps children with ASD improve their social skills. It is paired with a tablet and gives various audio visual queues as positive reinforcement for right answers.
   <br><br>
   This project futhers the assistance of the robot by making it capable of recognizing emotions. This can show how much of the sessions are helping the child or keeping them involved in the session.
- <br><br>
+  <br><br>
   During the course of this project, the FERC kaggle dataset was taken. It consisted of 7 emotions namely anger, disgust, happy , sad, surprise, fear and neutral. The dataset had some bad images in it which were removed, it also had uneven amount of data for each label. Anger and disgust were combined to one label as the exhibit a similar negative sentiment. After this all the data was augmented to have the same umber of samples in each label. The data was then put into a pickle file and run on the model. The model consists of various Convolutions, Max-pooling, Flattening, Batch-normalizations and dropout layers with relu and softmax activation functions.
   <br><br>
   The maximum accuracy reached for 6 emotions was 57.22%. Seeing the confusion matrix it was obvious that fear wasn't being detected properly so fear was removed and trained again to reach 68.50%. The highest accuracy recorded on this dataset is 71.2% so 68.5% is good. Another dataset has been obtained since and the model is being trained on that.
   <br><br>
   The video below shows how the trained model work on live video test data. The reults were displayed with the label and the confidence of the label. The final softmax layer was tweaked to show unsure if the confidence was less than 50%. "
-  software: "Keras, theano, Skitlearn, Anaconda Environment, Python,Harr face detect."
+  software: "Keras, theano, Skitlearn, tensorflow, Anaconda Environment, Python,Harr face detect."
   provid: https://www.youtube.com/embed/Wzzqim4pnSs
 
-- project:
-  title: Mapping and motion planning on an RC car
-  link: motion_planning_project
-  time: Jan '17 - May '17
-  details: "Motion planning is one of the most important things needed to move a robot. In this project I took 3 motion planning algorithms, A*, RRT* and ARA* and compared them in 3 different Gazebo worlds for completness, optimality, space and time complexity.
-  <br><br>
-  The 3 worlds are ones with no obstacles, one obstacle and a narrow passage. The goals are the same for each algorithm but change for each world. These algorithms were all coded in c++ with gazebo using ROS. The code can be found in the repo motion_planning_project.
-  <br><br>
-  The video below shows how each algorithm faired in each world * EXPLAIN MORE HERE AFTER TOUCH UP OF CODE*"
-  software: C++, gazebo, ROS, Rviz(for visualization)
-  #proimage: dlap
-  #provid: https://www.youtube.com/embed/36LlwygWWXk
+# - project:
+#   title: Mapping and motion planning on an RC car
+#   link: motion_planning_project
+#   time: Jan '17 - May '17
+#   details: "Motion planning is one of the most important things needed to move a robot. In this project I took 3 motion planning algorithms, A*, RRT* and ARA* and compared them in 3 different Gazebo worlds for completness, optimality, space and time complexity.
+#   <br><br>
+#   The 3 worlds are ones with no obstacles, one obstacle and a narrow passage. The goals are the same for each algorithm but change for each world. These algorithms were all coded in c++ with gazebo using ROS. The code can be found in the repo motion_planning_project.
+#   <br><br>
+#   The video below shows how each algorithm faired in each world * EXPLAIN MORE HERE AFTER TOUCH UP OF CODE*"
+#   software: C++, gazebo, ROS, Rviz(for visualization)
+#   #proimage: dlap
+#   #provid: https://www.youtube.com/embed/36LlwygWWXk
 
 - project:
   title: Safe Driving using Model Predictive Control
   time: Jan '17 - May '17
   link: mpc_control
-  details: "There is a boom in interest in self driving cars over the past few years. This project   "
+  details: "There is a boom in interest in self driving cars over the past few years. This project focuses on an algorithm that helps the car stay in lane as well as avoid obstacles saftley and return to the lane. This was done using fmincon and yalmip libraries in matlab to optimize the path and produce primitives and reference path lines.
+  <br><br>
+  The video below shows the red line (the car) avoiding the blue dot (the obstacle) and  rejoining to the keeping the blue stars(the refernce trajectory primitives)."
   software: Matlab
   #proimage: dlap
   provid: https://www.youtube.com/embed/ioxudJXcN8g
@@ -40,7 +42,9 @@
   title: Modular Teleoperation Framework for any master and slave device
   time: Jan '17 - May '17
   link: modular_teleop
-  details: "laklalty "
+  details: "Some robots have a master- slave setup where the master dictates what to do and the slave does so accordingly. In cases like surgical robots, teleoperation is used where the surgeon works on the master and the slave follows those motions. In this project my team and I aimed at making a modular teleoperation framework that could help incorporate any master device to any slave device. We did have issues automating the inverse kinematics so we kept the slave device as constant(ABB IRB 120) and can vary the slave device to any device.
+  <br><br>
+  In the video shown below we decided to work with a haptic device as the master so that this can be applied ot get haptic feedback during surgeries. The feedback is hard to show in video so a separate segment at the end of the video shows the force applied by the motors against the direction of motion. In the video, the haptic device(geomagic touch) is moved down and this movement is shown in Rviz. There is a bumper sensor coded to the end of the ABB arm which send signals back to the Geomagic via ROS and force is applied on the motors. "
   software: C++, ROS, Gazebo
   #proimage: dlap
   provid: https://www.youtube.com/embed/eJS6qXRqhds

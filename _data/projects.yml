@@ -39,7 +39,7 @@
   provid: https://www.youtube.com/embed/ioxudJXcN8g
 
 - project:
-  title: Modular Teleoperation Framework for any master and slave device
+  title: Modular Teleoperation Framework
   time: Jan '17 - May '17
   link: modular_teleop
   details: "Some robots have a master- slave setup where the master dictates what to do and the slave does so accordingly. In cases like surgical robots, teleoperation is used where the surgeon works on the master and the slave follows those motions. In this project my team and I aimed at making a modular teleoperation framework that could help incorporate any master device to any slave device. We did have issues automating the inverse kinematics so we kept the slave device as constant(ABB IRB 120) and can vary the slave device to any device.
@@ -88,28 +88,28 @@
   proimage: kiosk.jpg
   #provid: https://www.youtube.com/embed/WzyvoLGqVeE
 
-- project:
-  title: Design, Control and Fabrication of 3DOF manipulator
-  time: April '14 - May '15
-  details: "laklalty "
-  software: Arduino
-  paper: http://ieeexplore.ieee.org/abstract/document/7854020/
-  # proimage:
-  #provid: https://www.youtube.com/embed/WzyvoLGqVeE
+# - project:
+#   title: Design, Control and Fabrication of 3DOF manipulator
+#   time: April '14 - May '15
+#   details: "This was a project to understand forward and inverse kinematics, jacobian analysis and arduino programming of servo motors. "
+#   software: Arduino
+#   paper: http://ieeexplore.ieee.org/abstract/document/7854020/
+#   # proimage:
+#   #provid: https://www.youtube.com/embed/WzyvoLGqVeE
 
-- project:
-  title: Door Mechanism for Children with ASD
-  time: April '14 - May '15
-  details: "laklalty "
-  software:
-  # proimage:
-  #provid: https://www.youtube.com/embed/WzyvoLGqVeE
+# - project:
+#   title: Door Mechanism for Children with ASD
+#   time: April '14 - May '15
+#   details: "Children with ASD(Autism spectrum disorder) have issues with "
+#   software:
+#   # proimage:
+#   #provid: https://www.youtube.com/embed/WzyvoLGqVeE
 
-- project:
-  title: Image processing in a bubble column Reactor
-  time: April '14 - May '15
-  details: "laklalty "
-  software: Matlab
-  paper: http://ieeexplore.ieee.org/abstract/document/6724169/
-  # proimage:
-  #provid: https://www.youtube.com/embed/WzyvoLGqVeE
+# - project:
+#   title: Image processing in a bubble column Reactor
+#   time: April '14 - May '15
+#   details: "laklalty "
+#   software: Matlab
+#   paper: http://ieeexplore.ieee.org/abstract/document/6724169/
+#   # proimage:
+#   #provid: https://www.youtube.com/embed/WzyvoLGqVeE

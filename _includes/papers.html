@@ -1,0 +1,21 @@
+{% if site.data.paper %}
+<section class="section experiences-section">
+  <h2 class="section-title"><i class="fa fa-text-file-o"></i>Publications</h2>
+
+{% for paper in site.data.paper %}
+  <div class="item">
+
+    {% if paper.cite %}
+      <p>{{paper.title}}</p>
+    {% endif %}
+    <br>
+    {%if paper.link%}
+      <a href={{paper.link}}>{{paper.linkname}}</a>
+    {%endif%}
+
+
+  </div><!--//item-->
+{% endfor %}
+
+</section><!--//section-->
+{% endif %}

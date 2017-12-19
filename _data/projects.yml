@@ -81,9 +81,11 @@
 - project:
   title: Kiosk for Children with ASD
   time: Sept '15 - May '16
-  details: "laklalty "
-  software:
-  # proimage:
+  details: "Autism Spectrum disorder(ASD) not only affects children's social skills but motor skills as well. This project was my Bachelor's thesis where I designed, fabricated and coded a kiosk to help children better their motor skills. Various factors have been taken into consideration while designing of this. Autistic children can be sensitive to various stimuli like touch or visual queues like LED lights.
+  <br><br>
+  A variety of different motions involving turning, pressing, picking up, placing, throwing, rolling and distance judgment are included in this. This has been integrated with sensors like IR, Ultrasounds and limit switches. DC motors are used to actuate different motions. One PIC board and one Arduino board were used to control these devices. Coding has been done to track the progress of each child. The image below shows the final setup. Paper has been submitted for publishing."
+  software: Embedded C, Solidworks
+  proimage: kiosk.jpg
   #provid: https://www.youtube.com/embed/WzyvoLGqVeE
 
 - project:

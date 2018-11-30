@@ -1,4 +1,4 @@
--experience:
+- experience:
   role: Software Engineer
   time: May'18 - present
   company: FESTO corporation
@@ -6,7 +6,7 @@
   <br><br>
   In my time here so far I have learned a lot in terms of communication protocols via Ethernet and serial ports. I have been involved in the design of certain parts as well as helped build the firmware for our systems. Most of my job entails control of PLCs via various interfaces to make all the parts of the system act as one."
   software: Codesys, Visual studio(C#), Arduino IDE(C++), Labview, ProCreo, WinIdea(firmware)
-  
+
 
 - experience:
   role: Engineering intern

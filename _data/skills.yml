@@ -10,6 +10,16 @@
 
 - skill:
   type: lang
+  name: C#(.NetFramework)
+  level: 80%
+
+- skill:
+  type: lang
+  name: Codesys
+  level: 85%
+
+- skill:
+  type: lang
   name: Matlab
   level: 85%
 
@@ -34,6 +44,10 @@
   level: 80%
 
 - skill:
+  type: Soft
+  name: LabView
+  level: 70%
+- skill:
   type: Design
   name: Solidworks,ProE, Autocad
   level: 95%
@@ -46,7 +60,7 @@
 - skill:
   type: Hard
   name: Aurduino, PIC boards
-  level: 85%
+  level: 90%
 
 - skill:
   type: Hard

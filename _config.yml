@@ -12,12 +12,12 @@ style: styles-3
 
 #Profile information
 name: Kritika Iyer
-tagline: Graduate student at WPI
+tagline: Software Engineer at FESTO
 pic: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
-summary: I am a Robotics graduate student at WPI(Worcester Polytechnic Institute) and intend to graduate in May 2018. I am currently looking for a full time job focusing on Deep learning and perception. I have experience coding in C++ and Python, my most recent project includes training a neural network to detect emotions.
+summary: I am a Software Engineer at FESTO corporation. I deal with their kinematics and liquid handling systems for their Medical Laboratory branch. I did my Master's degree in Robotics Engineering from WPI(Worcester Polytechnic Institute). I am currently looking for a full time job focusing on Deep learning and perception. I have experience coding in C++ and Python, my most recent projects include creating test benches with graphical interfaces as well as using Deep Learning to detect the emotions and attention levels of children with ASD.
 
 #sidebar links
-email: kiyer@wpi.edu
+email: kritikaiyer811@gmail.com
 phone: 774 701 2616
 # website: blog.webjeda.com #do not add http://
 linkedin: kritikaiyer

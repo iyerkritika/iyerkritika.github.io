@@ -1,14 +1,24 @@
 - project:
+  title: Emotion & Attention level detection using deep learning (DR)
+  time: Dec '17 - May '18
+  details: " As a continuation from the previous project, I obtained another dataset called the CAFE dataset which had images of higher resolution but a lot less data. We also obtained data from a KDEF dataset and combined them to form a larger dataset. After consideration we decided to consider their facial features instead of the image as a whole and used the Kaggle dataset, CAFE, and KDEF and retrained the network. We also classified the emotions into 3 categories. Positive , negative and neutral. This gave a final accuracy of 85.19%
+  <br><br>
+  For Attention level, we had inputs from behavioral analysts and used those to train on videos of various children. We used different models to compare the results and validate. These ranged from 80 - 94% accuracy. We used only two classifications of on task and off task.
+  <br><br>
+  Sine this was part of ongoing research all the data and results are confidential so i cannot show any videos of the children and how the algorithm worked on the children."
+  software: "Keras, theano, Skitlearn, tensorflow, Python,Harr face detect, feature exctraction."
+
+- project:
   title: Emotion detection for children with ASD using deep learning
   link: Emotion_tracking_DL
-  time: Aug '17 - Dec '17
+  time: Aug '17 - Dec '18
   details: "Autism Spectrum Disorder(ASD) is a neurological disorder which causes late development of motor and social skills. PABI(Penguin for Autism Behavioral Intervention) is a robot that helps children with ASD improve their social skills. It is paired with a tablet and gives various audio visual queues as positive reinforcement for right answers.
   <br><br>
   This project furthers the assistance of the robot by making it capable of recognizing emotions. This can show how much of the sessions are helping the child or keeping them involved in the session.
   <br><br>
-  During the course of this project, the FERC kaggle dataset was taken. It consisted of 7 emotions namely anger, disgust, happy , sad, surprise, fear and neutral. The dataset had some bad images in it which were removed, it also had uneven amount of data for each label. Anger and disgust were combined to one label as the exhibit a similar negative sentiment. After this all the data was augmented to have the same umber of samples in each label. The data was then put into a pickle file and run on the model. The model consists of various Convolutions, Max-pooling, Flattening, Batch-normalizations and dropout layers with relu and softmax activation functions.
+  During the course of this project, the FERC kaggle dataset was taken. It consisted of 7 emotions namely anger, disgust, happy , sad, surprise, fear and neutral. The dataset had some bad images in it which were removed, it also had uneven amount of data for each label. Anger and disgust were combined to one label as the exhibit a similar negative sentiment. After this all the data was augmented to have the same number of samples in each label. The data was then put into a pickle file and run on the model. The model consists of various Convolutions, Max-pooling, Flattening, Batch-normalizations and dropout layers with relu and softmax activation functions.
   <br><br>
-  The maximum accuracy reached for 6 emotions was 57.22%. Seeing the confusion matrix it was obvious that fear wasn't being detected properly so fear was removed and trained again to reach 68.50%. The highest accuracy recorded on this dataset is 71.2% so 68.5% is good. Another dataset has been obtained since and the model is being trained on that.
+  The maximum accuracy reached for 6 emotions was 57.22%. Seeing the confusion matrix it was obvious that fear wasn't being detected properly so fear was removed and trained again to reach 68.50%. The highest accuracy recorded on this dataset is 71.2% so 68.5% is good.
   <br><br>
   The video below shows how the trained model work on live video test data. The results were displayed with the label and the confidence of the label. The final softmax layer was tweaked to show unsure if the confidence was less than 50%. "
   software: "Keras, theano, Skitlearn, tensorflow, Anaconda Environment, Python,Harr face detect."

@@ -1,4 +1,9 @@
 - paper:
+  cite: Moorthy, R., Iyer, K., Krishnan, R., et al. (2019). Enhancement of psychomotor skills in children with autism spectrum disorder by employing a mechatronic training kit. Paladyn, Journal of Behavioral Robotics, 10(1), pp. 1-13. Retrieved 26 Dec. 2018, from doi:10.1515/pjbr-2019-0001
+  link: https://www.degruyter.com/view/j/pjbr.2019.10.issue-1/pjbr-2019-0001/pjbr-2019-0001.xml
+  linkname: Enhancement of psychomotor skills
+  
+- paper:
   cite: Raj, Nijin J., Kritika Iyer, and A. K. Dash. "Design, fabrication, kinematic analysis and control of a 3-DOF serial manipulator." Next Generation Intelligent Systems (ICNGIS), International Conference on. IEEE, 2016.
   link: http://ieeexplore.ieee.org/abstract/document/7854020/
   linkname: 3DOF manipulator

@@ -1,12 +1,20 @@
 - experience:
-  role: Software Engineer
-  time: May'18 - present
-  company: FESTO corporation
-  details: "Festo is a company which is involved in industrial automation and other pneumatic and hydraulic solutions. Recently they have gotten involved in the liquid handling sector for medical laboratories. This includes valves and pipettes. During the development of these systems I have supported my team buy building test benches along with the graphical interfaces for our test engineers. I have also been in talks to integrate machine learning for predictive maintenance of our systems.
+  role: Software Engineering Specialist
+  time: Sept'19 - present
+  company: Medacuity Software LLC
+  details: "Medacuity is a Software consultancy company which is involved in medical devices specifically. It has a number of clients in this area and provides software support in the development of these devices.
   <br><br>
-  In my time here so far I have learned a lot in terms of communication protocols via Ethernet and serial ports. I have been involved in the design of certain parts as well as helped build the firmware for our systems. Most of my job entails control of PLCs via various interfaces to make all the parts of the system act as one."
-  software: Codesys, Visual studio(C#), Arduino IDE(C++), Labview, ProCreo, WinIdea(firmware)
+  I have been working on projects which require software assistance as a full-stack engineer. These devices go through rigorous testing as they are medical devices and need FDA approval. This has helped me understand the process and I have become well versed in the ISO: 13485 which is the software guidelines for medical devices. There are also Robotics based medical devices that I am working on."
+  software: C++, Visual studio(C#)
 
+  - experience:
+  role: Software Engineer
+  time: May'18 - Sept'19
+  company: FESTO corporation
+  details: "Festo is a company which is involved in industrial automation and other pneumatic and hydraulic solutions. Recently they have gotten involved in the liquid handling sector for medical laboratories. This includes valves and pipettes. During the development of these systems I supported my team buy building test benches along with the graphical interfaces for our test engineers. I was also in talks to integrate machine learning for predictive maintenance of our systems.
+  <br><br>
+  In my time here I learned a lot in terms of communication protocols via Ethernet and serial ports. I was involved in the design of certain parts as well as helped build the firmware for our systems. Most of my job entailed control of PLCs via various interfaces to make all the parts of the system act as one."
+  software: Codesys, Visual studio(C#), Arduino IDE(C++), Labview, ProCreo, WinIdea(firmware)
 
 - experience:
   role: Engineering intern

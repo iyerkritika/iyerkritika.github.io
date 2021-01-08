@@ -13,11 +13,17 @@ style: styles-3
 #Profile information
 name: Kritika Iyer
 tagline: Software Engineer at Medacuity
-pic: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
-summary: I am a Software Engineer at Medacuity Software LLC. I deal with various projects pertaining to the medical device industry. I did my Master's degree in Robotics Engineering from WPI(Worcester Polytechnic Institute). I have experience coding in C++ and Python, C# and .Net, my most recent projects include creating graphical interfaces for medical devices as well as using Deep Learning to detect the emotions and attention levels of children with ASD. I am a fast learner and an efficient worker. In the last 2 years, I have developed my skills in C# and C++ considerably and learned a lot about what it takes to make a product in the medical device industry. Having worked in a start-up and currently working in a medium-sized company I know how to adapt and work in any environment and understand the challenges and advantages of these scenarios. I am very self-sufficient and believe I have the caliber to be able to transfer knowledge to newer employees.
+pic: me_crop.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+summary: "I am a Software Engineer and have worked on various projects in the medical device industry. I obtained my Master's degree in Robotics Engineering from WPI(Worcester Polytechnic Institute) and have experience coding in C++ and Python, C#, and .Net.
+<br>
+My most recent projects include working on communication protocols for a medical device and writing graphical user interfaces. A project very dear to me uses Deep Learning to detect the emotions and attention levels of children with Autism Spectrum Disorder(ASD).
+<br>
+Having a diverse portfolio encompassing Programmable Logic to machine learning has helped me understand systems and subsystems in detail. During my career, I have learned best coding practices in the industry and medical devices in particular.
+<br>
+Moving a lot in my childhood, working in start-ups and medium-sized companies has taught me to adapt quickly and work in any environment. I am a people person and have worked in team sizes ranging from 2 to 25. Some of these were interdisciplinary, ranging from different levels of the organization. It has given me the tools to tackle challenges confidently and made me self-sufficient. I believe I can be an asset anywhere the road takes me."
 
 #sidebar links
-email: kiyer@wpi.edu
+email: kritikaiyer811@gmail.com
 phone: 774 701 2616
 # website: blog.webjeda.com #do not add http://
 linkedin: kritikaiyer

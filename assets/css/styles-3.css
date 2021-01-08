@@ -169,8 +169,7 @@ p {
   font-weight: 500;
   color: #0e1a40;
   position: relative;
-  margin-top: 0;
-  margin-bottom: 20px;
+  margin: 10px;
 }
 .main-wrapper .section-title .fa {
   width: 30px;
@@ -197,12 +196,12 @@ p {
   margin-bottom: 60px;
 }
 .main-wrapper .experiences-section .item {
-  margin-bottom: 30px;
+  margin-bottom: 15px;
 }
 .main-wrapper .upper-row {
   position: relative;
   overflow: hidden;
-  margin-bottom: 2px;
+  margin-bottom: 2px 0px;
 }
 .main-wrapper .job-title {
   color: #000;
@@ -218,7 +217,7 @@ p {
   color: #000;
 }
 .main-wrapper .company {
-  margin-bottom: 10px;
+  margin-bottom: 2px;
   color: #97AAC3;
 }
 .main-wrapper .project-title {
@@ -316,7 +315,7 @@ button.accordion
   background-color: #fff;
   color: #000;
   cursor: pointer;
-  padding: 9px;
+  padding: 4px;
   width: 100%;
   text-align: left;
   border-color: #0e1a40;
@@ -330,7 +329,27 @@ button.accordion.active, button.accordion:hover
 }
 
 div.panel {
-    padding: 0 18px;
+    padding: 4px;
     background-color: white;
     display: none;
+}
+
+button.section-accordion
+{
+  background-color: #fff;
+  color: #fff;
+  cursor: pointer;
+  padding: 4px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  vertical-align: middle;
+  margin-bottom: none;
+}
+
+button.section-accordion.active, button.section-accordion:hover
+{
+  background-color: #ccc;
 }

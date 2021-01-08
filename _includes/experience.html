@@ -1,42 +1,46 @@
 {% if site.data.experiences %}
 <section class="section experiences-section">
-  <h2 class="section-title"><i class="fa fa-briefcase"></i>Internships</h2>
-
-{% for experience in site.data.experiences %}
-  <div class="item">
-    <button class="accordion">
+  <button class="section-accordion">
     <div class="meta">
-
       <div class="upper-row">
-        <h3 class="job-title">{{ experience.role }}</h3>
-        <div class="time">{{ experience.time }}</div>
-      </div><!--//upper-row-->
-
-      <div class="company">{{ experience.company }}</div>
-
-    </div><!--//meta-->
+        <h2 class="section-title"><i class="fa fa-briefcase"></i>EXPERIENCE</h2>
+        <div class="<time"></div>
+        </div><!--//upper-row-->
+    </div><!--//meta -->
   </button>
   <div class="panel">
-    {% if experience.details %}
-    <div class="details">
-      <p>{{ experience.details }}</p>
-    </div><!--//details-->
-    {% endif %}
+    {% for experience in site.data.experiences %}
+      <div class="item">
+        <button class="accordion">
+        <div class="meta">
+          <div class="upper-row">
+            <h3 class="job-title">{{ experience.role }}</h3>
+            <div class="time">{{ experience.time }}</div>
+          </div><!--//upper-row-->
+          <div class="company">{{ experience.company }}</div>
+        </div><!--//meta-->
+      </button>
+      <div class="panel">
+        {% if experience.details %}
+        <div class="details">
+          <p>{{ experience.details }}</p>
+        </div><!--//details-->
+        {% endif %}
 
-    {% if experience.software %}
-    <p><b>Software Used:</b>{{experience.software}}</p>
-    {% endif %}
+        {% if experience.software %}
+        <p><b>Software Used:</b>{{experience.software}}</p>
+        {% endif %}
 
-    {% if experience.expimage %}
-    <div align="center">
-      <img src ="{{site.baseurl}}/assets/images/{{experience.expimage}}"</p>
-    </div><!--//details-->
-    <br><br><br>
-    {% endif %}
+        {% if experience.expimage %}
+        <div align="center">
+          <img src ="{{site.baseurl}}/assets/images/{{experience.expimage}}"</p>
+        </div><!--expimg-->
+        <br><br><br>
+        {% endif %}
 
-  </div><!--//panel-->
-  </div><!--//item-->
-{% endfor %}
-
+      </div><!--//panel-->
+      </div><!--//item-->
+    {% endfor %}
+    </div><!--panel-->
 </section><!--//section-->
 {% endif %}

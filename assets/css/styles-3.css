@@ -69,6 +69,9 @@ p {
 .sidebar-wrapper a {
   color: #fff;
 }
+.sidebar-wrapper a.resume {
+  color: #0e1a40;
+}
 .sidebar-wrapper .profile-container {
   padding: 30px;
   background: rgba(0, 0, 0, 0.2);
@@ -397,7 +400,18 @@ button.read-more
   transition: 0.4s;
 }
 
-#more {display: none;}
+button.resume
+{
+  background-color: #ccc;
+  color: #0e1a40;
+  cursor: pointer;
+  padding: 4px;
+  width: 140px;
+  text-align: center;
+  border-color: #0e1a40;
+  outline: none;
+  transition: 0.4s;
+}
 
 div.summary
 {
@@ -405,3 +419,5 @@ div.summary
   padding-left: 40px;
   background-color: white;
 }
+
+#more {display: none;}

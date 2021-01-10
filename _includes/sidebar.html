@@ -42,6 +42,11 @@
            <li class="twitter"><i class="fa fa-twitter"></i><a href="https://twitter.com/{{site.twitter}}" target="_blank">{{site.twitter}}</a></li>
            {% endif %}
 
+           {% if site.resume %}
+           <a class="resume" href="{{site.baseurl}}/assets/images/{{site.resume}}.pdf">
+             <button class="resume">View Resume</button>
+           </a>
+           {% endif %}
        </ul>
    </div><!--//contact-container-->
 

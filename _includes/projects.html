@@ -12,13 +12,13 @@
   {% for project in site.data.projects %}
     <div class="item">
       <button class ="accordion">
-      <div class="meta">
-        <div class="upper-row">
-          <h3 class="job-title">{{ project.title }}</h3>
-          <div class="time">{{ project.time }}</div>
-        </div><!--//upper-row-->
-      </div><!--//meta-->
-    </button>
+        <div class="meta">
+          <div class="upper-row">
+            <h3 class="job-title">{{ project.title }}</h3>
+            <div class="time">{{ project.time }}</div>
+          </div><!--//upper-row-->
+        </div><!--//meta-->
+      </button>
     <div class="panel">
       {% if project.details %}
       <div class="details">

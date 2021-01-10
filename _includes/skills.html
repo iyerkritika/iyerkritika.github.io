@@ -1,8 +1,14 @@
 {% if site.data.skills %}
 <section class="skills-section section">
-
-  <h2 class="section-title"><i class="fa fa-rocket"></i>Skills</h2>
-
+  <button class="section-accordion">
+    <div class="meta">
+      <div class="upper-row">
+        <h2 class="section-title"><i class="fa fa-rocket"></i>Skills</h2>
+        <div class="<time"></div>
+      </div><!--//upper-row-->
+    </div><!--//meta -->
+  </button>
+<div class="panel">
   <div class="skillset">
 
     <h4>Programming Languages</h4>
@@ -55,7 +61,7 @@
       {% endif %}
     {% endfor %}
 
-  </div>
-
+  </div> <!--skillset-->
+</div><!--panel-->
 </section><!--//skills-section-->
 {% endif %}

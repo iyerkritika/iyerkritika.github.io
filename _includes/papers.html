@@ -1,7 +1,14 @@
 {% if site.data.paper %}
 <section class="section experiences-section">
-  <h2 class="section-title"><i class="fa fa-paperclip"></i>Publications</h2>
-
+  <button class="section-accordion">
+    <div class="meta">
+      <div class="upper-row">
+          <h2 class="section-title"><i class="fa fa-paperclip"></i>Publications</h2>
+        <div class="<time"></div>
+      </div><!--//upper-row-->
+    </div><!--//meta -->
+  </button>
+<div class="panel">
 {% for paper in site.data.paper %}
   <div class="item">
 
@@ -16,6 +23,6 @@
 
   </div><!--//item-->
 {% endfor %}
-
+</div><!--panel-->
 </section><!--//section-->
 {% endif %}

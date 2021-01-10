@@ -106,8 +106,9 @@ p {
   font-size: 14px;
 }
 .sidebar-wrapper .container-block {
-  padding-right: : 15px;
-  padding-left: 30px;
+  padding-right: : 10px;
+  padding-left: 25px;
+  padding-top: 10px
 }
 .sidebar-wrapper .container-block-title {
   text-transform: uppercase;
@@ -170,9 +171,9 @@ p {
   font-weight: 500;
   color: #0e1a40;
   position: relative;
-  margin: 10px;
+  margin: 10px 10px 0px;
 }
-.main-wrapper .section-title .fa {
+.main-wrapper .fa {
   width: 30px;
   height: 30px;
   margin-right: 8px;
@@ -191,10 +192,10 @@ p {
   padding-top: 8px;
   font-size: 16px;
   position: relative;
-  top: -2px;
 }
+
 .main-wrapper .section {
-  margin-bottom: 30px;
+  margin-bottom: 15px;
 }
 .main-wrapper .experiences-section .item {
   margin-bottom: 15px;
@@ -228,7 +229,7 @@ p {
   margin-bottom: 5px;
 }
 .main-wrapper .projects-section .intro {
-  margin-bottom: 30px;
+  margin-bottom: 15px;
 }
 .main-wrapper .projects-section .item {
   margin-bottom: 15px;
@@ -329,7 +330,8 @@ button.accordion.active, button.accordion:hover
   background-color: #ccc;
 }
 
-div.panel {
+div.panel
+{
     padding: 4px;
     background-color: white;
     display: none;
@@ -338,19 +340,36 @@ div.panel {
 button.section-accordion
 {
   background-color: #fff;
-  color: #fff;
   cursor: pointer;
-  padding: 4px;
+  padding: 14px;
   width: 100%;
   text-align: left;
   border: none;
   outline: none;
   transition: 0.4s;
-  vertical-align: middle;
-  margin-bottom: none;
+  margin: 5px;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 500;
+  color: #0e1a40;
 }
 
 button.section-accordion.active, button.section-accordion:hover
 {
   background-color: #ccc;
 }
+
+button.section-accordion:after
+{
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 20px;
+  color: #777;
+  float: right;
+  margin: 5px;
+}
+
+button.section-accordion.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+#more {display: none;}

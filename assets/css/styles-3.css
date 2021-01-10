@@ -218,7 +218,7 @@ p {
 .main-wrapper .upper-row {
   position: relative;
   overflow: hidden;
-  margin-bottom: 2px 0px;
+  margin: 2px 0px;
 }
 .main-wrapper .job-title {
   color: #000;
@@ -238,11 +238,21 @@ p {
   color: #97AAC3;
 }
 .main-wrapper .project-title {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
-  margin-top: 0;
+  margin-top: 5px;
   margin-bottom: 5px;
+  color: #000;
 }
+
+.main-wrapper .project-time {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding-top: 3px;
+  color: #000;
+}
+
 .main-wrapper .projects-section .intro {
   margin-bottom: 15px;
 }

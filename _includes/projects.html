@@ -1,8 +1,14 @@
 {% if site.data.projects %}
 <section class="section projects-section">
-
-  <h2 class="section-title"><i class="fa fa-archive"></i>Projects</h2>
-
+<button class="section-accordion">
+  <div class="meta">
+    <div class="upper-row">
+        <h2 class="section-title"><i class="fa fa-archive"></i>PROJECTS</h2>
+      <div class="<time"></div>
+    </div><!--//upper-row-->
+  </div><!--//meta -->
+</button>
+<div class="panel">
   {% for project in site.data.projects %}
     <div class="item">
       <button class ="accordion">
@@ -46,6 +52,6 @@
     </div><!--//panel-->
     </div><!--//item-->
   {% endfor %}
-
+</div><!--panel-->
 </section><!--//section-->
 {% endif %}

@@ -1,20 +1,18 @@
 {% if site.data.paper %}
-<section class="section experiences-section">
+<section class="section skillset">
   <button class="section-accordion"><i class="fa fa-paperclip"></i>Publications
   </button>
 <div class="panel">
 {% for paper in site.data.paper %}
   <div class="item">
-
     {% if paper.cite %}
-      <p>{{paper.cite}}</p>
+      <p>{{paper.cite}}
     {% endif %}
-    <br>
     {%if paper.link%}
+      <br>
       <a href={{paper.link}}>{{paper.linkname}}</a>
     {%endif%}
-
-
+    </p>
   </div><!--//item-->
 {% endfor %}
 </div><!--panel-->

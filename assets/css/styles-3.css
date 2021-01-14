@@ -8,6 +8,7 @@
 */
 /* styles-3.css */
 /* ======= Base ======= */
+
 body {
   font-family: 'Roboto', sans-serif;
   color: #545E6C;
@@ -30,6 +31,7 @@ h5,
 h6 {
   font-weight: 700;
 }
+
 a {
   color: #000;
   -webkit-transition: all 0.4s ease-in-out;
@@ -48,6 +50,7 @@ a:focus {
 p {
   line-height: 1.5;
 }
+
 .wrapper {
   background: #222f5b;
   max-width: 960px;
@@ -346,7 +349,7 @@ p {
 used for profile image
 */
 .profile-img {
-  max-width: 100px;
+  max-width: 175px;
   margin-bottom: 15px;
   border: 0px solid #fff;
   border-radius: 100%;
@@ -433,6 +436,19 @@ button.resume
   cursor: pointer;
   padding: 4px;
   width: 140px;
+  text-align: center;
+  border-color: #0e1a40;
+  outline: none;
+  transition: 0.4s;
+}
+
+button.Gitrepo
+{
+  background-color: #ccc;
+  color: #0e1a40;
+  cursor: pointer;
+  padding: 4px;
+  width: 200px;
   text-align: center;
   border-color: #0e1a40;
   outline: none;

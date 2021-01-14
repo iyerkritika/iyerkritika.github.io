@@ -1,27 +1,32 @@
 - project:
-  title: Emotion & Attention level detection using deep learning (DR)
+  title: Emotion & Attention level detection in PABI robot
   time: Dec '17 - May '18
-  details: " As a continuation from the previous project, I obtained another dataset called the CAFE dataset which had images of higher resolution but a lot less data. We also obtained data from a KDEF dataset and combined them to form a larger dataset. After consideration we decided to consider their facial features instead of the image as a whole and used the Kaggle dataset, CAFE, and KDEF and retrained the network. We also classified the emotions into 3 categories. Positive , negative and neutral. This gave a final accuracy of 85.19%
+  details: " This was research done as a continuation of the project done in my deep learning class. I obtained two other datasets; the CAFE data set and the KDEF data set. These had images of higher resolution but less data than the Kaggle data set.  After consideration, we decided to consider their facial features instead of the image as a whole and used the Kaggle dataset, CAFE, and KDEF and retrained the network. We also classified the emotions into three categories. Positive, negative, and neutral. Doing this gave a final accuracy of 85.19%
   <br><br>
-  For Attention level, we had inputs from behavioral analysts and used those to train on videos of various children. We used different models to compare the results and validate. These ranged from 80 - 94% accuracy. We used only two classifications of on task and off task.
+  We took inputs from behavioral analysts and used those to train on videos of various children to detect attention level. We used different models to compare the results and validate. These ranged from 80 - 94% accuracy. We used only two classifications of on task and off task.
   <br><br>
-  Sine this was part of ongoing research all the data and results are confidential so i cannot show any videos of the children and how the algorithm worked on the children."
+  Since this is part of ongoing research, all the data and results are confidential. I cannot show any videos of the children and how the algorithm worked on the children."
   software: "Keras, theano, Skitlearn, tensorflow, Python,Harr face detect, feature exctraction."
+  report: DR_report
+  # provid:
+  # proimage:
 
 - project:
   title: Emotion detection for children with ASD using deep learning
   link: Emotion_tracking_DL
   time: Aug '17 - Dec '18
-  details: "Autism Spectrum Disorder(ASD) is a neurological disorder which causes late development of motor and social skills. PABI(Penguin for Autism Behavioral Intervention) is a robot that helps children with ASD improve their social skills. It is paired with a tablet and gives various audio visual queues as positive reinforcement for right answers.
+  details: "Autism Spectrum Disorder(ASD) is a neurological disorder that causes the late development of motor and social skills. PABI(Penguin for Autism Behavioral Intervention) is a robot that helps children with ASD improve their social skills. It is paired with a tablet and gives various audiovisual queues as positive reinforcement for the right answers.
   <br><br>
-  This project furthers the assistance of the robot by making it capable of recognizing emotions. This can show how much of the sessions are helping the child or keeping them involved in the session.
+  This project furthers the assistance of the robot by making it capable of recognizing emotions. Doing this can show how much of the sessions are helping the child and keeping them involved.
   <br><br>
-  During the course of this project, the FERC kaggle dataset was taken. It consisted of 7 emotions namely anger, disgust, happy , sad, surprise, fear and neutral. The dataset had some bad images in it which were removed, it also had uneven amount of data for each label. Anger and disgust were combined to one label as the exhibit a similar negative sentiment. After this all the data was augmented to have the same number of samples in each label. The data was then put into a pickle file and run on the model. The model consists of various Convolutions, Max-pooling, Flattening, Batch-normalizations and dropout layers with relu and softmax activation functions.
+  The FERC Kaggle data set, consisting of 7 emotions (anger, disgust, happy, sad, surprise, fear, and neutral) was used for this project. The dataset had some bad images in it which were removed. It also had an uneven amount of data for each label so, anger and disgust were combined into one as they exhibit a similar negative sentiment. Finally, the data was flipped and augmented to have the same number of samples in each label. It was then put into a pickle file and run on the model. The model consists of various Convolutions, Max-pooling, Flattening, Batch-normalizations, and dropout layers with relu and softmax activation functions.
   <br><br>
-  The maximum accuracy reached for 6 emotions was 57.22%. Seeing the confusion matrix it was obvious that fear wasn't being detected properly so fear was removed and trained again to reach 68.50%. The highest accuracy recorded on this dataset is 71.2% so 68.5% is good.
+  The maximum accuracy reached on these emotions was 57.22%. On seeing the confusion matrix, it was clear that fear was the weak link. After removing fear, the model trained to an accuracy of 68.50%. The highest accuracy recorded on this dataset is 71.2%.
   <br><br>
-  The video below shows how the trained model work on live video test data. The results were displayed with the label and the confidence of the label. The final softmax layer was tweaked to show unsure if the confidence was less than 50%. "
+  The video below shows how the trained model works on live video test data. I tweaked the final layer to show <q>unsure</q> if the confidence was less than 50%."
   software: "Keras, theano, Skitlearn, tensorflow, Anaconda Environment, Python,Harr face detect."
+  report: RBE_595_report
+  # proimage:
   provid: https://www.youtube.com/embed/Wzzqim4pnSs
 
 # - project:
@@ -34,8 +39,42 @@
 #   <br><br>
 #   The video below shows how each algorithm faired in each world * EXPLAIN MORE HERE AFTER TOUCH UP OF CODE*"
 #   software: C++, gazebo, ROS, Rviz(for visualization)
+#   report: motion_planning_report
 #   #proimage: dlap
 #   #provid: https://www.youtube.com/embed/36LlwygWWXk
+
+- project:
+  title: Modular Teleoperation Framework
+  time: Jan '17 - May '17
+  link: modular_teleop
+  details: "Some robots have a client-server setup where the client dictates what to do and, the server performs the task. In surgical robots, teleoperation is a well-used structure. The surgeon works on the client-side controller and, the server follows those motions on the patient. In this project, my team and I aimed at making a modular teleoperation framework that could help incorporate any client device into any server device. We did have issues automating the inverse kinematics so, we kept the server device constant(ABB IRB 120). We can vary the server device by entering the inverse kinematics for any device.
+  <br><br>
+  In the video shown below, we decided to work with a haptic device as the client to get haptic feedback during surgeries. The haptic feedback is hard to show in the video. In the end, there is a separate segment showing the force applied by the motors against the direction of motion. Actuating the haptic device(geomagic touch) is displayed on Rviz. There is a bumper sensor coded at the end of the ABB arm which sends signals back to the Geomagic touch via ROS. The force was applied to the motors. "
+  software: C++, ROS, Gazebo
+  report: Modular_Teleoperation_Framework
+  #proimage: dlap
+  provid: https://www.youtube.com/embed/eJS6qXRqhds
+
+- project:
+  title: Fin Analysis and Modeling for a Manta Ray Fish
+  time: Feb '17 - Jun '17
+  details: "Manta rays are supremely efficient swimmers and can withstand a wide range of temperatures and pressures. To mimic their body movement would mean to be able to do deep-sea navigation for extended periods. It would also help study manta ray behavior for oceanographers and marine biologists.
+  <br><br>
+  In this project, I modeled a manta ray fin from anatomically correct ratios in Solidworks. Then I analyzed this fin in Comsol. I did deflection analysis, stress analysis, flow analysis with a velocity of 5m/s for water. It helped me understand which parts of the fin endure more stress and need more reinforcement while designing. The video shows the results of this analysis. "
+  software: Solidworks, Comsol
+  #proimage: dlap
+  provid: https://www.youtube.com/embed/xW60XTqEUqI
+
+- project:
+  title: Motion Compensation of Davinci during surgery
+  time: Oct '16 - Dec '16
+  link: motion_comp
+  details: "During surgery on organs that move involuntarily, even under anesthesia, the surgeon moves the instruments to compensate for this motion. It means that it is the surgeon's job to synchronize their movements to the patient's. To make their job easier, my team and I worked on a model that would help the surgeon operate as the system takes care of the motion compensation.
+  <br><br>
+  We achieved this on a simulation of the Davinci PSM and MTM models on gazebo using ROS. The PSM moved in a combined motion of the MTM and the compensated tissue movement. In the simulation, the platform moves in the form of a randomly generated Fourier transform to simulate tissue. We used an Extended Kalman Filter(EKF) to predict the next position of the platform. The video below shows the results of this model."
+  software: C++, Gazebo,ROS
+  #proimage: dlap
+  provid: https://www.youtube.com/embed/WzyvoLGqVeE
 
 - project:
   title: Safe Driving using Model Predictive Control
@@ -45,81 +84,28 @@
   <br><br>
   The video below shows the red line (the car) avoiding the blue dot (the obstacle) and  rejoining to the keeping the blue stars(the reference trajectory primitives)."
   software: Matlab
+  report: control_report
   #proimage: dlap
   provid: https://www.youtube.com/embed/ioxudJXcN8g
 
 - project:
-  title: Modular Teleoperation Framework
-  time: Jan '17 - May '17
-  link: modular_teleop
-  details: "Some robots have a master- slave setup where the master dictates what to do and the slave does so accordingly. In cases like surgical robots, teleoperation is used where the surgeon works on the master and the slave follows those motions. In this project my team and I aimed at making a modular teleoperation framework that could help incorporate any master device to any slave device. We did have issues automating the inverse kinematics so we kept the slave device as constant(ABB IRB 120) and can vary the slave device to any device.
-  <br><br>
-  In the video shown below we decided to work with a haptic device as the master so that this can be applied to get haptic feedback during surgeries. The feedback is hard to show in video so a separate segment at the end of the video shows the force applied by the motors against the direction of motion. In the video, the haptic device(geomagic touch) is moved down and this movement is shown in Rviz. There is a bumper sensor coded to the end of the ABB arm which send signals back to the Geomagic via ROS and force is applied on the motors. "
-  software: C++, ROS, Gazebo
-  #proimage: dlap
-  provid: https://www.youtube.com/embed/eJS6qXRqhds
-
-- project:
-  title: Fin Analysis and Modeling for a Manta Ray Fish
-  time: Feb '17 - Jun '17
-  details: "Manta rays are supremely efficient swimmers and can withstand a wide range of temperatures and pressures. To mimic their body movement would mean to be able to do deep sea navigation for extended periods of time. This would also help study manta ray behavior for oceanographers and marine biologists.
-  <br><br>
-  In this project, I modeled a manta ray fin from anatomically correct ratios in Solidworks. Then I did analysis of this fin in Comsol. I did deflection analysis, stress analysis, flow analysis with a velocity of 5m/s for water. The video shows the results of this analysis. "
-  software: Solidworks, Comsol
-  #proimage: dlap
-  provid: https://www.youtube.com/embed/xW60XTqEUqI
-
-- project:
-  title: Motion Compensation of Davinci during surgery
-  time: Oct '16 - Dec '16
-  link: motion_comp
-  details: "During surgery on parts that move involuntarily even while under anesthesia the surgeon moves the surgical instrument to compensate for this motion. This means that it is the surgeons job to synchronize his/her movements to the patient's. To make their job easier, my team and I worked on a model that would help the surgeon operate as the system takes care of the motion compensation.
-  <br><br>
-  This has been achieved on a simulation of the Davinci PSM and MTM models on gazebo using ROS. The MTM moves and incorporates teleoperation where the PSM performs the movement given by the MTM as well as compensation of movement of a platform which mimics movement of tissue. The platform has been coded to move in the form of a randomly generated Fourier transform. An Extended Kalman Filter(EKF) has been used to predict the next position of the platform or tissue. The video below shows the results from this model."
-  software: C++, Gazebo,ROS
-  #proimage: dlap
-  provid: https://www.youtube.com/embed/WzyvoLGqVeE
-
-- project:
   title: Manta Ray fin actuation using Nitnol wires and Pneumatics
   time: Sept '16 - Dec '16
-  details: "Manta rays can swim very efficiently and this is due to the flap of their fins. In this project, my team and I designed a manta ray fin mold in solidworks. We then got the mold 3D printed and made manta ray models out of silicone ecoflex-30. Some manta rays had Nitnol wires in them during molding that had been pre-trained to fold in one direction, others had wires put in them after being molded. Another model was made of a bigger mold with chambers for air to go in. Manta rays were made and air was pushed into the chamber to create a movement. The results can be seen in the video below."
-  software: Solidworks
+  details: "Manta rays can swim very efficiently due to the way they flap their fins. In this project, my team and I  wanted to try and replicate this motion using smart materials. We designed a manta ray fin mold in Solidworks and then got the mold 3D printed. We filled the manta ray models with silicone ecoflex-30. Some manta rays had Nitinol wires in them during molding that had been pre-trained to fold in one direction, while others had wires put in them after being molded. Another model was made of a mold with chambers for air to go in.
+  <br><br>
+  We then applied electricity to the nitinol wires to compare how pre-trained wires worked against the wires we pushed in after molding. We also tested the pneumatic manta ray to see how it would compare to the electric actuation. The results are in the video below."
+  software: Solidworks, Ultimaker
+  report: manta_report
   #proimage: dlap
   provid: https://www.youtube.com/embed/XknByCPCKAo
 
 - project:
   title: Kiosk for Children with ASD
   time: Sept '15 - May '16
-  details: "Autism Spectrum disorder(ASD) not only affects children's social skills but motor skills as well. This project was my Bachelor's thesis where I designed, fabricated and coded a kiosk to help children better their motor skills. Various factors have been taken into consideration while designing of this. Autistic children can be sensitive to various stimuli like touch or visual queues like LED lights.
+  details: "Autism Spectrum disorder(ASD) not only affects children's social skills but motor skills as well. For my Bachelor's thesis, I designed, fabricated, and programmed a kiosk to help children better their motor skills. Various factors have influenced the design. Autistic children can be sensitive to different stimuli like touch or visual cues such as the texture of balls or LED lights.
   <br><br>
-  A variety of different motions involving turning, pressing, picking up, placing, throwing, rolling and distance judgment are included in this. This has been integrated with sensors like IR, Ultrasounds and limit switches. DC motors are used to actuate different motions. One PIC board and one Arduino board were used to control these devices. Coding has been done to track the progress of each child. The image below shows the final setup. Paper has been submitted for publishing."
+  I included different skill exercises like turning, pressing, picking up, placing, throwing, rolling, and depth perception. I integrated sensors like IR, Ultrasound, and limit switches to track progress. DC motors actuate different motions. One PIC board and one Arduino board control these devices. Programming stores and tracks the progress of each child. The image below shows the final setup."
   software: Embedded C, Solidworks
+  report: bach_thesis
   proimage: kiosk.jpg
   #provid: https://www.youtube.com/embed/WzyvoLGqVeE
-
-# - project:
-#   title: Design, Control and Fabrication of 3DOF manipulator
-#   time: April '14 - May '15
-#   details: "This was a project to understand forward and inverse kinematics, jacobian analysis and arduino programming of servo motors. "
-#   software: Arduino
-#   paper: http://ieeexplore.ieee.org/abstract/document/7854020/
-#   # proimage:
-#   #provid: https://www.youtube.com/embed/WzyvoLGqVeE
-
-# - project:
-#   title: Door Mechanism for Children with ASD
-#   time: April '14 - May '15
-#   details: "Children with ASD(Autism spectrum disorder) have issues with "
-#   software:
-#   # proimage:
-#   #provid: https://www.youtube.com/embed/WzyvoLGqVeE
-
-# - project:
-#   title: Image processing in a bubble column Reactor
-#   time: April '14 - May '15
-#   details: "laklalty "
-#   software: Matlab
-#   paper: http://ieeexplore.ieee.org/abstract/document/6724169/
-#   # proimage:
-#   #provid: https://www.youtube.com/embed/WzyvoLGqVeE

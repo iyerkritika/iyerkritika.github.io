@@ -19,16 +19,27 @@
       {% endif %}
 
       {% if project.software %}
-      <p><b>Software Used:</b>{{project.software}}</p>
+        <h3 class ="job-title"><b>Software Used:</b>{{project.software}}</h3>
+        <br><br>
       {% endif %}
 
       {%if project.link%}
-      <h4>github repo:<a href="https://github.com/iyerkritika/{{project.link}}">{{project.link}}</a></h4>
+        <a target="_blank" rel="noopener noreferrer" class="Gitrepo" href="https://github.com/iyerkritika/{{project.link}}">
+             <button class="resume">View Github Repo</button>
+           </a>&nbsp;
       {% endif %}
+
+      {% if project.report %}
+      <a target="_blank" rel="noopener noreferrer" class="resume" href="{{site.baseurl}}/assets/pdfs/{{project.report}}.pdf">
+         <button class="resume">View Report</button>
+      </a>
+      {% endif %}
+
+      <br><br>
 
       {% if project.proimage %}
       <div align="center">
-        <img src ="{{site.baseurl}}/assets/images/{{project.proimage}}"</p>
+        <img src ="{{site.baseurl}}/assets/images/{{project.proimage}}"/>
       </div><!--//details-->
       <br><br><br>
       {% endif %}
@@ -39,8 +50,8 @@
           src="{{project.provid}}">
         </iframe>
       </div><!--//details-->
-      <br><br><br>
       {% endif %}
+
     </div><!--//panel-->
     </div><!--//item-->
   {% endfor %}

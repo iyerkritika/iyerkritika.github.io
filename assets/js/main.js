@@ -1,4 +1,4 @@
-jQuery(document).ready(function($) 
+jQuery(document).ready(function($)
 {
     $('.level-bar-inner').css('width', '0');
 
@@ -16,6 +16,7 @@ jQuery(document).ready(function($)
 });
 
 var acc = document.getElementsByClassName("section-accordion");
+var skillbtn = document.getElementById("skillPanel");
 var i;
 
 for (i = 0; i < acc.length; i++) {
@@ -27,9 +28,11 @@ for (i = 0; i < acc.length; i++) {
 
         /* Toggle between hiding and showing the active panel */
         var panel = this.nextElementSibling;
-        if (panel.style.display === "block") {
+        if (panel.style.display === "block")
+        {
             panel.style.display = "none";
-        } else {
+        } else
+        {
             panel.style.display = "block";
         }
     }

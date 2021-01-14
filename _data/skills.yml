@@ -1,73 +1,71 @@
-- skill:
-  type: lang
-  name: C++
-  level: 95%
+- heading:
+  name: Programming Languages
+  skills:
+    - skill:
+      name: C++
+      level: 95%
 
-- skill:
-  type: lang
-  name: python
-  level: 85%
+    - skill:
+      name: python
+      level: 85%
 
-- skill:
-  type: lang
-  name: C#(.NetFramework)
-  level: 80%
+    - skill:
+      name: C#(.NetFramework)
+      level: 90%
 
-- skill:
-  type: lang
-  name: Codesys
-  level: 85%
+    - skill:
+      name: Codesys
+      level: 85%
 
-- skill:
-  type: lang
-  name: Matlab
-  level: 85%
+    - skill:
+      name: Matlab
+      level: 85%
 
-- skill:
-  type: Soft
-  name: ROS
-  level: 70%
+- heading:
+  name: Software and Tools
+  skills:
+    - skill:
+      name: ROS
+      level: 80%
 
-- skill:
-  type: Soft
-  name: Gazebo
-  level: 70%
+    - skill:
+      name: Gazebo
+      level: 80%
 
-- skill:
-  type: Soft
-  name: Openrave
-  level: 70%
+    - skill:
+      name: Openrave
+      level: 70%
 
-- skill:
-  type: Soft
-  name: Git
-  level: 90%
+    - skill:
+      name: Git
+      level: 90%
 
-- skill:
-  type: Soft
-  name: LabView
-  level: 70%
-- skill:
-  type: Design
-  name: Solidworks,ProE, Autocad
-  level: 90%
+    - skill:
+      name: LabView
+      level: 70%
 
-- skill:
-  type: Design
-  name: Comsol,Ansys
-  level: 90%
+- heading:
+  name: Design Software
+  skills:
+    - skill:
+      name: Solidworks,ProE, Autocad
+      level: 90%
 
-- skill:
-  type: Hard
-  name: Aurduino, PIC boards
-  level: 90%
+    - skill:
+      name: Comsol,Ansys
+      level: 90%
 
-- skill:
-  type: Hard
-  name: IR sensors, Ultrasonic Sensors, limit switches
-  level: 90%
+- heading:
+  name: Hardware
+  skills:
+    - skill:
+      name: Aurduino, PIC boards
+      level: 90%
 
-- skill:
-  type: Hard
-  name: DC and Servo motors
-  level: 95%
+    - skill:
+      name: IR sensors, Ultrasonic Sensors, limit switches
+      level: 90%
+
+    - skill:
+      name: DC and Servo motors
+      level: 95%

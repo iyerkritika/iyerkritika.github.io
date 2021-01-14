@@ -263,10 +263,26 @@ p {
   margin-bottom: 5px;
   overflow: hidden;
 }
+
+.skillset .skillitem {
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.skillset .skillheading {
+  color: #000;
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
 .skillset .level-title {
   font-size: 14px;
   margin-top: 0;
   margin-bottom: 2px;
+  margin-left: 10px;
+  margin-right: 5px;
 }
 .skillset .level-bar {
   height: 12px;
@@ -312,12 +328,12 @@ p {
   .skillset .level-title {
     display: inline-block;
     float: left;
-    width: 30%;
+    width: 32%;
     margin-bottom: 0;
   }
   .skillset .level-bar {
     display: inline-block;
-    width: 70%;
+    width: 63%;
     float: left;
     position: relative;
     top: 1px;

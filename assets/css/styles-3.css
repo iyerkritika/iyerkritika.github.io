@@ -18,17 +18,14 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-@media (max-width: 767px) {
-    body{
-        padding: 0;
-    }
-}
+
 h1,
 h2,
 h3,
 h4,
 h5,
-h6 {
+h6
+{
   font-weight: 700;
 }
 
@@ -70,7 +67,7 @@ p {
   background: #222f5b;
   position: absolute;
   right: 0;
-  width: 384px;
+  max-width: 384px;
   height: 100%;
   min-height: 800px;
   color: #fff;
@@ -174,8 +171,8 @@ p {
 }
 .main-wrapper {
   background: #fff;
-  padding: 90px;
-  padding-right: 450px;
+  padding: 5%;
+  padding-right: 32%;
   height: 100%;
   min-height: 800px;
 }
@@ -280,22 +277,30 @@ p {
 
 .skillset .skillheading {
   color: #000;
-  font-size: 26px;
+  font-size: 24px;
   margin-top: 0;
   margin-bottom: 10px;
   font-weight: 500;
 }
 
 .skillset .level-title {
-  font-size: 18px;
+  font-size: 16px;
   margin-top: 0;
   margin-bottom: 2px;
   margin-left: 10px;
   margin-right: 5px;
+  display: inline-block;
+  float: left;
+  width: 32%;
 }
 .skillset .level-bar {
   height: 16px;
   background: #f5f5f5;
+  display: inline-block;
+  width: 63%;
+  float: left;
+  position: relative;
+  top: 1px;
 }
 .skillset .level-bar-inner {
   height: 16px;
@@ -453,7 +458,8 @@ div.summary
 #more {display: none;}
 
 /* Extra small devices (phones, less than 768px) */
-@media (max-width: 767px) {
+@media (max-width: 767px)
+{
   .sidebar-wrapper {
     position: static;
     width: inherit;
@@ -480,22 +486,65 @@ div.summary
     overflow: hidden;
     width: inherit;
   }
+
+  body
+  {
+      padding: 0;
+  }
 }
 /* Small devices (tablets, 768px and up) */
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: 992px) {
+@media (min-width: 768px) and (max-width: 991) {
   .sidebar-wrapper {
-    width: 30%;
+    max-width: 15%;
     min-height: 1024px;
   }
   .main-wrapper {
-    width: 70%;
+    width: 75%;
+    padding: 50px;
+    min-height: 1024px;
+  }
+  .profile-img {
+    max-width: 100px;
+    margin-bottom: 15px;
+    border: 0px solid #fff;
+    border-radius: 100%;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  }
+
+  .skillset .level-title {
+    display: inline-block;
+    float: left;
+    width: 32%;
+    margin-bottom: 0;
+  }
+  .skillset .level-bar {
+    display: inline-block;
+    width: 63%;
+    float: left;
+    position: relative;
+    top: 1px;
+  }
+  .vidCont {
+    position: relative;
+    overflow: hidden;
+    width: 420px;
+    height: 315px;
+    align-self: center;
+  }
+}
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1200) {
+  .sidebar-wrapper {
+    width: 20%;
+    min-height: 1024px;
+  }
+  .main-wrapper {
+    width: 80%;
     padding: 30px;
     min-height: 1024px;
   }
-
   .profile-img {
-    max-width: 80px;
+    max-width: 150px;
     margin-bottom: 15px;
     border: 0px solid #fff;
     border-radius: 100%;

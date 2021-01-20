@@ -3,17 +3,12 @@ title: Kritika Iyer
 url: 'https://iyerkritika.github.io'
 # baseurl: '/webpage' #change it according to your repository name
 
-# Enable one of these styles by removing #. Style will be applied only after restarting the build or serve.
-# style: styles-2
 style: styles-3
-# style: styles-4
-# style: styles-5
-# style: styles-6
 
 #Profile information
 name: Kritika Iyer
 tagline: Software Engineer at Medacuity
-pic: me.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+pic: me.jpg
 summary: "I am a Software Engineer and have worked on various projects in the medical device industry. I obtained my Master's degree in Robotics Engineering from WPI(Worcester Polytechnic Institute) and have experience coding in C++ and Python, C#, and .Net."
 
 summaryExt: "My most recent projects include working on communication protocols for a medical device and writing graphical user interfaces. A project very dear to me uses Deep Learning to detect the emotions and attention levels of children with Autism Spectrum Disorder(ASD).
@@ -25,13 +20,9 @@ Moving a lot in my childhood, working in start-ups and medium-sized companies ha
 #sidebar links
 email: kritikaiyer811@gmail.com
 phone: 774 701 2616
-# website: blog.webjeda.com #do not add http://
 linkedin: kritikaiyer
 github: iyerkritika
-# twitter: '@webjeda'
 resume: KritikaIyer_Resume
-#Update all the sections by editing the files inside _data folder.
-
 # Tracker
 analytics: UA-83979019-1
 

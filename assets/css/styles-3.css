@@ -18,17 +18,14 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-@media (max-width: 767px) {
-    body{
-        padding: 0;
-    }
-}
+
 h1,
 h2,
 h3,
 h4,
 h5,
-h6 {
+h6
+{
   font-weight: 700;
 }
 
@@ -453,7 +450,8 @@ div.summary
 #more {display: none;}
 
 /* Extra small devices (phones, less than 768px) */
-@media (max-width: 767px) {
+@media (max-width: 767px)
+{
   .sidebar-wrapper {
     position: static;
     width: inherit;
@@ -480,10 +478,15 @@ div.summary
     overflow: hidden;
     width: inherit;
   }
+
+  body
+  {
+      padding: 0;
+  }
 }
 /* Small devices (tablets, 768px and up) */
 /* Medium devices (desktops, 992px and up) */
-@media (min-width: 992px) {
+@media (min-width: 992) and (max-width: 1200) {
   .sidebar-wrapper {
     width: 30%;
     min-height: 1024px;
@@ -495,7 +498,7 @@ div.summary
   }
 
   .profile-img {
-    max-width: 80px;
+    max-width: 150px;
     margin-bottom: 15px;
     border: 0px solid #fff;
     border-radius: 100%;

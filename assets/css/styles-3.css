@@ -494,7 +494,7 @@ div.summary
 }
 /* Small devices (tablets, 768px and up) */
 /* Medium devices (desktops, 992px and up) */
-@media (min-width: 992) and (max-width: 1200) {
+@media (min-width: 768px) and (max-width: 1200) {
   .sidebar-wrapper {
     width: 20%;
     min-height: 1024px;

@@ -289,10 +289,12 @@ p {
   margin-bottom: 2px;
   margin-left: 10px;
   margin-right: 5px;
+  width: 32%
 }
 .skillset .level-bar {
   height: 16px;
   background: #f5f5f5;
+  width: 63%
 }
 .skillset .level-bar-inner {
   height: 16px;

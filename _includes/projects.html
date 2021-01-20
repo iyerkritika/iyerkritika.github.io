@@ -22,13 +22,13 @@
 
       {% if project.software %}
         <p class ="softwareUsed"><b>Software Used: </b>{{project.software}}</p>
-        <br><br>
+        <br>
       {% endif %}
 
       {%if project.link%}
         <a target="_blank" rel="noopener noreferrer" class="Gitrepo" href="https://github.com/iyerkritika/{{project.link}}">
              <button class="resume">View Github Repo</button>
-           </a>&nbsp;
+           </a>&ensp;
       {% endif %}
 
       {% if project.report %}
@@ -40,7 +40,7 @@
       <br><br>
 
       {% if project.proimage %}
-      <div align="center">
+      <div class ="vidCont" align="center">
         <img src ="{{site.baseurl}}/assets/images/{{project.proimage}}"/>
       </div><!--//details-->
       <br><br><br>

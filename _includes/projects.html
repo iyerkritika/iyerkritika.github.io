@@ -6,9 +6,11 @@
   {% for project in site.data.projects %}
     <div class="item">
       <button class ="accordion">
-        <div class ="upper-row">
-            <h3 class="project-title">{{ project.title }}</h3>
-            <div class="project-time">{{ project.time }}</div>
+        <div class="meta">
+          <div class ="upper-row">
+              <h3 class="project-title">{{ project.title }}</h3>
+              <div class="project-time">{{ project.time }}</div>
+          </div>
         </div>
       </button>
     <div class="panel">

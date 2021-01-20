@@ -12,7 +12,7 @@
   # proimage:
 
 - project:
-  title: Emotion detection for children with ASD using deep learning
+  title: Emotion detection for children with ASD
   link: Emotion_tracking_DL
   time: Aug '17 - Dec '18
   details: "Autism Spectrum Disorder(ASD) is a neurological disorder that causes the late development of motor and social skills. PABI(Penguin for Autism Behavioral Intervention) is a robot that helps children with ASD improve their social skills. It is paired with a tablet and gives various audiovisual queues as positive reinforcement for the right answers.

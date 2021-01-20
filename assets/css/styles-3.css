@@ -53,7 +53,7 @@ p {
 
 .wrapper {
   background: #222f5b;
-  max-width: 960px;
+  max-width: 1536px;
   margin: 0 auto;
   position: relative;
   -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
@@ -64,7 +64,7 @@ p {
   background: #222f5b;
   position: absolute;
   right: 0;
-  width: 240px;
+  width: 384px;
   height: 100%;
   min-height: 800px;
   color: #fff;
@@ -169,13 +169,13 @@ p {
 .main-wrapper {
   background: #fff;
   padding: 60px;
-  padding-right: 300px;
+  padding-right: 420px;
   height: 100%;
   min-height: 800px;
 }
 .main-wrapper .section-title {
   text-transform: uppercase;
-  font-size: 20px;
+  font-size: 36px;
   font-weight: 500;
   color: #0e1a40;
   position: relative;
@@ -184,7 +184,7 @@ p {
 
 .main-wrapper .about-section-title {
   text-transform: uppercase;
-  font-size: 20px;
+  font-size: 36px;
   font-weight: 500;
   color: #0e1a40;
   position: relative;
@@ -192,9 +192,9 @@ p {
 }
 
 .main-wrapper .fa {
-  width: 30px;
-  height: 30px;
-  margin-right: 8px;
+  width: 48px;
+  height: 48px;
+  margin-right: 12px;
   display: inline-block;
   color: #fff;
   -webkit-border-radius: 50%;
@@ -207,8 +207,8 @@ p {
   background-clip: padding-box;
   background: #0e1a40;
   text-align: center;
-  padding-top: 8px;
-  font-size: 16px;
+  padding-top: 12px;
+  font-size: 24px;
   position: relative;
 }
 
@@ -225,7 +225,7 @@ p {
 }
 .main-wrapper .job-title {
   color: #000;
-  font-size: 16px;
+  font-size: 20px;
   margin-top: 0;
   margin-bottom: 0;
   font-weight: 500;
@@ -241,7 +241,7 @@ p {
   color: #97AAC3;
 }
 .main-wrapper .project-title {
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 400;
   margin-top: 5px;
   margin-bottom: 5px;
@@ -274,25 +274,25 @@ p {
 
 .skillset .skillheading {
   color: #000;
-  font-size: 20px;
+  font-size: 26px;
   margin-top: 0;
   margin-bottom: 10px;
   font-weight: 500;
 }
 
 .skillset .level-title {
-  font-size: 14px;
+  font-size: 18px;
   margin-top: 0;
   margin-bottom: 2px;
   margin-left: 10px;
   margin-right: 5px;
 }
 .skillset .level-bar {
-  height: 12px;
+  height: 16px;
   background: #f5f5f5;
 }
 .skillset .level-bar-inner {
-  height: 12px;
+  height: 16px;
   background: #0e1a40;
 }
 .footer {
@@ -321,6 +321,12 @@ p {
     display: block;
     margin-top: 5px;
   }
+
+  .main-wrapper .project-time {
+    position: static;
+    display: block;
+    margin-top: 5px;
+  }
   .main-wrapper .upper-row {
     margin-bottom: 0;
   }
@@ -328,6 +334,24 @@ p {
 /* Small devices (tablets, 768px and up) */
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+  .sidebar-wrapper {
+    width: 30%;
+    min-height: 1024px;
+  }
+  .main-wrapper {
+    width: 70%;
+    padding: 30px;
+    min-height: 1024px;
+  }
+
+  .profile-img {
+    max-width: 80px;
+    margin-bottom: 15px;
+    border: 0px solid #fff;
+    border-radius: 100%;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  }
+
   .skillset .level-title {
     display: inline-block;
     float: left;
@@ -349,7 +373,7 @@ p {
 used for profile image
 */
 .profile-img {
-  max-width: 175px;
+  max-width: 200px;
   margin-bottom: 15px;
   border: 0px solid #fff;
   border-radius: 100%;
@@ -393,7 +417,7 @@ button.section-accordion
   transition: 0.4s;
   margin: 5px;
   text-transform: uppercase;
-  font-size: 20px;
+  font-size: 26px;
   font-weight: 500;
   color: #0e1a40;
 }
@@ -406,7 +430,7 @@ button.section-accordion.active, button.section-accordion:hover
 button.section-accordion:after
 {
   content: '\02795'; /* Unicode character for "plus" sign (+) */
-  font-size: 20px;
+  font-size: 26px;
   color: #777;
   float: right;
   margin: 5px;

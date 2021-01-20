@@ -21,7 +21,7 @@
       {% endif %}
 
       {% if project.software %}
-        <h3 class ="job-title"><b>Software Used:</b>{{project.software}}</h3>
+        <p class ="softwareUsed"><b>Software Used: </b>{{project.software}}</p>
         <br><br>
       {% endif %}
 
@@ -47,9 +47,8 @@
       {% endif %}
 
       {% if project.provid %}
-      <div align="center">
-        <iframe width="600" height="450"
-          src="{{project.provid}}">
+      <div class="vidCont">
+        <iframe class="videoembedd" src="{{project.provid}}">
         </iframe>
       </div><!--//details-->
       {% endif %}

@@ -2,25 +2,25 @@
   role: Software Engineering Specialist
   time: Sept'19 - present
   company: Medacuity Software LLC
-  details: "Medacuity is a Software consultancy company which is involved in medical devices specifically. It has several clients in this area and provides software support in the development of these devices.
+  details: "Medacuity is a Software consultancy company that is involved in medical devices specifically. It has several clients in this area and provides software support in the development of these devices.
   <br><br>
-  I have been working on projects which require software assistance as a full-stack engineer. As a part of my role I have aided in the back end and front end support of devices that operate in a client-server environment. These devices go through rigorous testing as they are medical devices and need FDA approval. This has helped me understand the process and I have become well versed in the ISO: 13485 which is the software guidelines for medical devices."
-  software: C++, Visual studio(C#), python, C
+  I have been working on projects which require software assistance as a full-stack engineer. As a part of my role, I aid in the back-end and front-end support of devices that operate in a client-server environment. I also work on communication protocols for devices and their interfaces. These devices go through rigorous testing as they are medical devices and need FDA approval. It has helped me understand the process and, I have become well versed in the ISO: 13485 that is the software guidelines for medical devices."
+  software: C++, Visual studio(C#), python, C, CanBus Communication
 
 - experience:
   role: Software Engineer
   time: May'18 - Sept'19
   company: FESTO corporation
-  details: "Festo is a company which is involved in industrial automation and other pneumatic and hydraulic solutions. Recently they have gotten involved in the liquid handling sector for medical laboratories. This includes valves and pipettes. During the development of these systems, I supported my team by building test benches along with the graphical user interfaces for our test engineers. I was also in talks to integrate machine learning for predictive maintenance of our systems.
+  details: "Festo is a company that is involved in industrial automation and other pneumatic and hydraulic solutions. Recently they have gotten involved in the liquid handling sector for medical laboratories. It includes valves and pipettes. During development, I supported my team by building test benches and graphical user interfaces for test engineers.
   <br><br>
-  In my time here I learned a lot in terms of communication protocols via Ethernet and serial ports. I was involved in the design of certain products as well as helped build the firmware for our systems. Most of my job entailed control of PLCs via various interfaces to make all the parts of the system act as one."
+  I learned a lot in terms of communication protocols via Ethernet and serial ports. I was involved in the design and testing of products and helped build the firmware for our systems. Most of my job entailed control of PLCs via various interfaces to integrate different components."
   software: Codesys, Visual studio(C#), Arduino IDE(C++), Labview, ProCreo, WinIdea(firmware)
 
 - experience:
   role: Engineering intern
   time: July '16 - Aug '16
   company: Persimmon Technologies
-  details: "During my internship, I designed a testbed for encoders. The specifications that needed to be met:
+  details: "During my internship, I designed a testbed for encoders. The specifications were:
   <ul>
   <li> Minimum number of encoders that can be fit on the testbed
   <li> Air gap between encoder and encoder ring,
@@ -28,9 +28,9 @@
   <li> Easy mounting and removal of encoders to not disturb other encoders
   <li>Cost effectiveness of the testbed (parts should be standardized and available from manufacturers instead of needing to be machined)
   </ul>
-  The encoders are propitiatory and are manufactured especially for the robots at the company. The encoder rings are also specially designed hence their dimensions aren't standard. This meant that getting standardized parts that fit these specifications in the design was hard. Trade-off analysis had to be done whether it was easier to design around the standard or make some parts in store.
+  The encoders are propitiatory and are manufactured especially for the robots at the company. The encoder rings are also specially designed and, their dimensions aren't standard. That meant that getting standardized parts that fit these specifications in the design was hard. I performed a Trade-off analysis on whether it was easier to design around the standard or make some parts.
   <br><br>
-  After many iterations, the picture below is the design that was finalized. It has a total of 25 individual components out of which 11 are standard parts that can be bought by the manufacturer and the rest are designed. On repetition of these components the whole assembly has 221 components."
+  After many iterations, the design was finalized and is displayed below. It has a total of 25 individual components. 11 of them are standard parts that can be bought by the manufacturer and the rest are designed and will have to be manufactured. On repetition of these components, the whole assembly has 221 components."
   software: Solidworks
   expimage: testbed.jpg
 
@@ -38,5 +38,5 @@
   role: Engineering intern
   time: May '15 - Jun '15
   company: Maruthi Suzuki India Pvt,ltd
-  details: "This internship was a great learning opportunity to see how robots interact with each other and humans in an industrial setting. I studied trajectory controllers for 6-DOF Fanuc and ABB robots for car manufacturing. I also learned how to work with Seimens PLCs(Programmable Logic Controllers) and code them using ladder logic. Using this I designed a ladder logic to control a bottle filling station using complex pick and place operations with indexing."
+  details: "This internship was a great learning opportunity to see how robots interact with each other and humans in an industrial setting. I studied trajectory controllers for 6-DOF Fanuc and ABB robots for car manufacturing. I also learned how to work with Seimens PLCs(Programmable Logic Controllers) and code them using ladder logic.  I designed a ladder logic to control a bottle filling station using complex pick and place operations with indexing."
   software: SIMANTIC (ladder logic software)

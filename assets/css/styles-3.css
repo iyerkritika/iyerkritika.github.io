@@ -51,6 +51,12 @@ p {
   line-height: 1.5;
 }
 
+.softwareUsed
+{
+  line-height: 1.5;
+  font-size: 18px;
+}
+
 .wrapper {
   background: #222f5b;
   max-width: 1536px;
@@ -168,8 +174,8 @@ p {
 }
 .main-wrapper {
   background: #fff;
-  padding: 60px;
-  padding-right: 420px;
+  padding: 90px;
+  padding-right: 450px;
   height: 100%;
   min-height: 800px;
 }
@@ -307,67 +313,6 @@ p {
 .footer .fa-heart {
   color: #fb866a;
 }
-/* Extra small devices (phones, less than 768px) */
-@media (max-width: 767px) {
-  .sidebar-wrapper {
-    position: static;
-    width: inherit;
-  }
-  .main-wrapper {
-    padding: 30px;
-  }
-  .main-wrapper .time {
-    position: static;
-    display: block;
-    margin-top: 5px;
-  }
-
-  .main-wrapper .project-time {
-    position: static;
-    display: block;
-    margin-top: 5px;
-  }
-  .main-wrapper .upper-row {
-    margin-bottom: 0;
-  }
-}
-/* Small devices (tablets, 768px and up) */
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-  .sidebar-wrapper {
-    width: 30%;
-    min-height: 1024px;
-  }
-  .main-wrapper {
-    width: 70%;
-    padding: 30px;
-    min-height: 1024px;
-  }
-
-  .profile-img {
-    max-width: 80px;
-    margin-bottom: 15px;
-    border: 0px solid #fff;
-    border-radius: 100%;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
-  }
-
-  .skillset .level-title {
-    display: inline-block;
-    float: left;
-    width: 32%;
-    margin-bottom: 0;
-  }
-  .skillset .level-bar {
-    display: inline-block;
-    width: 63%;
-    float: left;
-    position: relative;
-    top: 1px;
-  }
-}
-/* Large devices (large desktops, 1200px and up) */
-/* Ex-Large devices (large desktops, 1200px and up) */
 
 /*
 used for profile image
@@ -486,4 +431,98 @@ div.summary
   background-color: white;
 }
 
+.vidCont {
+  position: relative;
+  overflow: hidden;
+  width: 600px;
+  height: 450px;
+  align-self: center;
+}
+
+/* Then style the iframe to fit in the container div with full height and width */
+.videoembedd {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
 #more {display: none;}
+
+/* Extra small devices (phones, less than 768px) */
+@media (max-width: 767px) {
+  .sidebar-wrapper {
+    position: static;
+    width: inherit;
+  }
+  .main-wrapper {
+    padding: 30px;
+  }
+  .main-wrapper .time {
+    position: static;
+    display: block;
+    margin-top: 5px;
+  }
+
+  .main-wrapper .project-time {
+    position: static;
+    display: block;
+    margin-top: 5px;
+  }
+  .main-wrapper .upper-row {
+    margin-bottom: 0;
+  }
+  .vidCont {
+    position: relative;
+    overflow: hidden;
+    width: inherit;
+  }
+}
+/* Small devices (tablets, 768px and up) */
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .sidebar-wrapper {
+    width: 30%;
+    min-height: 1024px;
+  }
+  .main-wrapper {
+    width: 70%;
+    padding: 30px;
+    min-height: 1024px;
+  }
+
+  .profile-img {
+    max-width: 80px;
+    margin-bottom: 15px;
+    border: 0px solid #fff;
+    border-radius: 100%;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  }
+
+  .skillset .level-title {
+    display: inline-block;
+    float: left;
+    width: 32%;
+    margin-bottom: 0;
+  }
+  .skillset .level-bar {
+    display: inline-block;
+    width: 63%;
+    float: left;
+    position: relative;
+    top: 1px;
+  }
+  .vidCont {
+    position: relative;
+    overflow: hidden;
+    width: 420px;
+    height: 315px;
+    align-self: center;
+  }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+/* Ex-Large devices (large desktops, 1200px and up) */

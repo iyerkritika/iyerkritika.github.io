@@ -45,8 +45,10 @@
   {% include education.html %}
 
 {% if site.hobbies %}
-  <h2 class="container-block-title">Hobbies</h2>
-    <p>{site.hobbies}</p>
+  <div class="contact-container container-block">
+    <h2 class="container-block-title">Hobbies</h2>
+    <p>{{site.hobbies}}</p>
+  </div>
 {% endif %}
 
 </div><!--//sidebar-wrapper-->

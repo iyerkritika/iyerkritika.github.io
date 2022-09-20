@@ -7,9 +7,9 @@
       <div class="item">
         <button class="accordion">
         <div class="meta">
-          {% if site.data.experiences.roles %}
+          {% if site.data[experience].roles %}
             <div class="upper-row">
-              {% for roles in site.data.experiences.roles %}
+              {% for roles in site.data[experience].roles %}
                 <h3 class="job-title">{{ roles.role }}</h3>
                 <div class="time">{{ roles.time }}</div>
               {% endfor %}

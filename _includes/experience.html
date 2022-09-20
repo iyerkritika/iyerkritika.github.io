@@ -7,11 +7,20 @@
       <div class="item">
         <button class="accordion">
         <div class="meta">
-          <div class="upper-row">
-            <h3 class="job-title">{{ experience.role }}</h3>
-            <div class="time">{{ experience.time }}</div>
-          </div><!--//upper-row-->
-          <div class="company">{{ experience.company }}</div>
+          {% if site.data.experiences.roles %}
+            <div class="upper-row">
+              {% for roles in site.data.experiences.roles %}
+                <h3 class="job-title">{{ roles.role }}</h3>
+                <div class="time">{{ roles.time }}</div>
+              {% endfor %}
+            </div><!--//upper-row-->
+          {% else %}
+            <div class="upper-row">
+              <h3 class="job-title">{{ experience.role }}</h3>
+              <div class="time">{{ experience.time }}</div>
+            </div><!--//upper-row-->
+          {% endif %}
+            <div class="company">{{ experience.company }}</div>
         </div><!--//meta-->
       </button>
       <div class="panel">

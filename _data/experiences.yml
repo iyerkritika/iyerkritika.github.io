@@ -1,6 +1,13 @@
 - experience:
-  role: Software Engineering Specialist
-  time: Sept'19 - present
+  - roles:
+    role: Staff II software engineer
+    time: Sept'22 - present
+  - roles:
+    role: Staf I Software Engineer
+    time: Jan'21 - Aug'22
+  - roles:
+    role: Associate Software Engineer
+    time: Sept'19 - Dec'20
   company: Medacuity Software LLC
   details: "Medacuity is a Software consultancy company that is involved in medical devices specifically. It has several clients in this area and provides software support in the development of these devices.
   <br><br>

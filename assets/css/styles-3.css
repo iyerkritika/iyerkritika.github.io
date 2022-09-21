@@ -233,10 +233,16 @@ p {
   margin-bottom: 0;
   font-weight: 500;
 }
+.main-wrapper .job-time{
+  color: #000;
+  display: block;
+  float: right;
+}
+
 .main-wrapper .time {
   position: absolute;
   right: 0;
-  top: 0;
+  top : 0;
   color: #000;
 }
 .main-wrapper .company {

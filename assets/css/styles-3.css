@@ -478,6 +478,14 @@ div.summary
     display: block;
     margin-top: 5px;
   }
+  .main-wrapper .job-title
+  {
+    float: left;
+  }
+  .main-wrapper .job-time
+  {
+    float: left;
+  }
 
   .main-wrapper .project-time {
     position: static;

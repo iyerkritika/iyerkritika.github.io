@@ -7,11 +7,11 @@ style: styles-3
 
 #Profile information
 name: Kritika Iyer
-tagline: Software Engineer at Medacuity
+tagline: Software Engineer
 pic: me2.jpg
 summary: "I am a Software Engineer and have worked on various projects in the medical device industry. I obtained my Master's degree in Robotics Engineering from WPI(Worcester Polytechnic Institute) and have experience coding in C++ and Python, C#, and .Net."
 
-summaryExt: "My most recent projects include working on communication protocols for a medical device and writing graphical user interfaces. A project very dear to me uses Deep Learning to detect the emotions and attention levels of children with Autism Spectrum Disorder(ASD).
+summaryExt: "My most recent projects include working on QNX applications for robotic controls of catheters, writing communication protocols for a stent placement robotic aide and writing graphical user interfaces for the same. A project very dear to me uses Deep Learning to detect the emotions and attention levels of children with Autism Spectrum Disorder(ASD).
 <br><br>
 Having a diverse portfolio encompassing Programmable Logic to machine learning has helped me understand systems and subsystems in detail. During my career, I have learned best coding practices in the industry and medical devices in particular.
 <br><br>
@@ -19,7 +19,7 @@ Moving a lot in my childhood, working in start-ups and medium-sized companies ha
 
 #sidebar links
 email: kritikaiyer811@gmail.com
-phone: 774 701 2616
+phone: +918448522969
 linkedin: kritikaiyer
 github: iyerkritika
 resume: KritikaIyer_Resume

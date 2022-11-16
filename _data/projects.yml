@@ -1,12 +1,12 @@
 - project:
   title: Emotion & Attention level detection in PABI robot
   time: Dec '17 - May '18
-  details: " This was research done as a continuation of the project done in my deep learning class. I obtained two other datasets; the CAFE data set and the KDEF data set. These had images of higher resolution but less data than the Kaggle data set.  After consideration, we decided to consider their facial features instead of the image as a whole and used the Kaggle dataset, CAFE, and KDEF and retrained the network. We also classified the emotions into three categories. Positive, negative, and neutral. Doing this gave a final accuracy of 85.19%
+  details: " This was research done as a continuation of the project done in my deep learning class. I obtained two other datasets; the CAFE data set and the KDEF data set. These had images of higher resolution but less data than the Kaggle data set.  After consideration, we decided to consider their facial features instead of the image as a whole and used the Kaggle data set, CAFE, and KDEF and retrained the network. We also classified the emotions into three categories. Positive, negative, and neutral. Doing this gave a final accuracy of 85.19%
   <br><br>
   We took inputs from behavioral analysts and used those to train on videos of various children to detect attention level. We used different models to compare the results and validate. These ranged from 80 - 94% accuracy. We used only two classifications of on task and off task.
   <br><br>
   Since this is part of ongoing research, all the data and results are confidential. I cannot show any videos of the children and how the algorithm worked on the children."
-  software: "Keras, theano, Skitlearn, tensorflow, Python,Harr face detect, feature exctraction."
+  software: "Keras, theano, Skitlearn, tensorflow, Python,Harr face detect, feature extraction."
   report: DR_report
   # provid:
   # proimage:
@@ -19,9 +19,9 @@
   <br><br>
   This project furthers the assistance of the robot by making it capable of recognizing emotions. Doing this can show how much of the sessions are helping the child and keeping them involved.
   <br><br>
-  The FERC Kaggle data set, consisting of 7 emotions (anger, disgust, happy, sad, surprise, fear, and neutral) was used for this project. The dataset had some bad images in it which were removed. It also had an uneven amount of data for each label so, anger and disgust were combined into one as they exhibit a similar negative sentiment. Finally, the data was flipped and augmented to have the same number of samples in each label. It was then put into a pickle file and run on the model. The model consists of various Convolutions, Max-pooling, Flattening, Batch-normalizations, and dropout layers with relu and softmax activation functions.
+  The FERC Kaggle data set, consisting of 7 emotions (anger, disgust, happy, sad, surprise, fear, and neutral) was used for this project. The dateset had some bad images in it which were removed. It also had an uneven amount of data for each label so, anger and disgust were combined into one as they exhibit a similar negative sentiment. Finally, the data was flipped and augmented to have the same number of samples in each label. It was then put into a pickle file and run on the model. The model consists of various Convolutions, Max-pooling, Flattening, Batch-normalizations, and dropout layers with relu and softmax activation functions.
   <br><br>
-  The maximum accuracy reached on these emotions was 57.22%. On seeing the confusion matrix, it was clear that fear was the weak link. After removing fear, the model trained to an accuracy of 68.50%. The highest accuracy recorded on this dataset is 71.2%.
+  The maximum accuracy reached on these emotions was 57.22%. On seeing the confusion matrix, it was clear that fear was the weak link. After removing fear, the model trained to an accuracy of 68.50%. The highest accuracy recorded on this data set is 71.2%.
   <br><br>
   The video below shows how the trained model works on live video test data. I tweaked the final layer to show <q>unsure</q> if the confidence was less than 50%."
   software: "Keras, theano, Skitlearn, tensorflow, Anaconda Environment, Python,Harr face detect."
@@ -33,11 +33,11 @@
 #   title: Mapping and motion planning on an RC car
 #   link: motion_planning_project
 #   time: Jan '17 - May '17
-#   details: "Motion planning is one of the most important things needed to move a robot. In this project I took 3 motion planning algorithms, A*, RRT* and ARA* and compared them in 3 different Gazebo worlds for completness, optimality, space and time complexity.
+#   details: "Motion planning is one of the most important things needed to move a robot. In this project I took 3 motion planning algorithms, A*, RRT* and ARA* and compared them in 3 different Gazebo worlds for completeness, optimality, space and time complexity.
 #   <br><br>
 #   The 3 worlds are ones with no obstacles, one obstacle and a narrow passage. The goals are the same for each algorithm but change for each world. These algorithms were all coded in c++ with gazebo using ROS. The code can be found in the repo motion_planning_project.
 #   <br><br>
-#   The video below shows how each algorithm faired in each world * EXPLAIN MORE HERE AFTER TOUCH UP OF CODE*"
+#   The video below shows how each algorithm fared in each world * EXPLAIN MORE HERE AFTER TOUCH UP OF CODE*"
 #   software: C++, gazebo, ROS, Rviz(for visualization)
 #   report: motion_planning_report
 #   #proimage: dlap
@@ -60,7 +60,7 @@
   time: Feb '17 - Jun '17
   details: "Manta rays are supremely efficient swimmers and can withstand a wide range of temperatures and pressures. To mimic their body movement would mean to be able to do deep-sea navigation for extended periods. It would also help study manta ray behavior for oceanographers and marine biologists.
   <br><br>
-  In this project, I modeled a manta ray fin from anatomically correct ratios in Solidworks. Then I analyzed this fin in Comsol. I did deflection analysis, stress analysis, flow analysis with a velocity of 5m/s for water. It helped me understand which parts of the fin endure more stress and need more reinforcement while designing. The video shows the results of this analysis. "
+  In this project, I modeled a manta ray fin from anatomically correct ratios in Solidworks. Then I analyzed this fin in Comsol. I did deflection analysis, stress analysis, flow analysis with a velocity of 5 m/s for water. It helped me understand which parts of the fin endure more stress and need more reinforcement while designing. The video shows the results of this analysis. "
   software: Solidworks, Comsol
   #proimage: dlap
   provid: https://www.youtube.com/embed/xW60XTqEUqI
